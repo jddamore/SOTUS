@@ -1,0 +1,5 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.sotus.json	4356	-	0	0	0	0	0	0	128	487	0	0	0	0	0	0	0	1	0	0	359	166	0	0	0	4	0	4
+fsh-generated/resources/Bundle-bundle-no-info-required-sections.json	15716	183	230	0	2	0	0	0	8	3246	0	0	0	0	0	0	0	0	0	0	253	175	0	0	0	0	0	1
+fsh-generated/resources/StructureDefinition-Bundle-us-sotus.json	22113	176	0	4103	1	0	1	0	2	777	0	0	7	1380	0	0	0	23	0	0	6816	6553	0	1	0	162	1	29
+fsh-generated/resources/StructureDefinition-Composition-us-sotus.json	119145	123	0	304	1	0	0	0	3	840	0	0	3	0	0	0	0	10	0	0	5563	3600	0	1	0	82	1	17

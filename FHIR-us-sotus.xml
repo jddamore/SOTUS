@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="sd" url="http://hl7.org/fhir/us/sotus">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="StructureDefinition/Bundle-us-sotus" key="StructureDefinition-Bundle-us-sotus" name="Bundle (SOTUS)"/>
+<artifact id="Bundle/bundle-no-info-required-sections" key="Bundle-bundle-no-info-required-sections" name="Bundle - No Info Required section"/>
+<artifact id="StructureDefinition/Composition-us-sotus" key="StructureDefinition-Composition-us-sotus" name="Composition (IPS)"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="actors" name="Actors"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="changes" name="Changes"/>
+<page key="copyrights" name="Copyrights"/>
+<page key="downloads" name="Downloads"/>
+<page key="examples" name="Examples"/>
+<page key="index" name="Home"/>
+<page key="IG-analysis" name="IG Analysis"/>
+<page key="profiles" name="Profiles"/>
+<page key="Structure-of-the-SOTUS" name="Structure of the SOTUS"/>
+<page key="toc" name="Table of Contents"/>
+</specification>

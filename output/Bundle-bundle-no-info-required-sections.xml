@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="bundle-no-info-required-sections"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"/>
+  </meta>
+  <language value="en-NZ"/>
+  <identifier>
+    <system value="urn:oid:2.16.724.4.8.10.200.10"/>
+    <value value="59f51f0b-2005-485c-858e-3d3ae9657287"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2022-01-08T20:42:11.0607701+00:00"/>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a"/>
+    <resource>
+      <Composition>
+        <id value="514af4c1-194d-48b4-8afe-7be09d3f895a"/>
+        <meta>
+          <versionId value="1"/>
+        </meta>
+        <language value="en-NZ"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-NZ" lang="en-NZ"><a name="Composition_514af4c1-194d-48b4-8afe-7be09d3f895a"> </a><p class="res-header-id"><b>Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a</b></p><a name="514af4c1-194d-48b4-8afe-7be09d3f895a"> </a><a name="hc514af4c1-194d-48b4-8afe-7be09d3f895a"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Language: en-NZ</p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</p><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 60591-5}">Patient summary Document</span></p><p><b>date</b>: 2021-05-03</p><p><b>author</b>: <a href="Bundle-bundle-no-info-required-sections.html#Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>title</b>: International Patient Summary</p><p><b>confidentiality</b>: normal</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style="display: none">*</td><td>Professional</td><td>2021-05-03</td><td><a href="Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><p><b>custodian</b>: <a href="Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><h3>RelatesTos</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Target[x]</b></td></tr><tr><td style="display: none">*</td><td>Transforms</td><td><code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</td></tr></table><h3>Events</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Period</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}">care provision</span></td><td>?? --&gt; 2021-05-03</td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="urn:oid:2.16.840.1.113883.2.18.7.2"/>
+          <value value="59f51f0b-2005-485c-858e-3d3ae9657287"/>
+        </identifier>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="http://loinc.org"/>
+            <code value="60591-5"/>
+            <display value="Patient summary Document"/>
+          </coding>
+        </type>
+        <subject>
+          <reference value="Patient/AAA1234"/>
+        </subject>
+        <date value="2021-05-03"/>
+        <author>
+          <reference value="Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"/>
+        </author>
+        <title value="International Patient Summary"/>
+        <confidentiality value="N"/>
+        <attester>
+          <mode value="professional"/>
+          <time value="2021-05-03"/>
+          <party>
+            <reference value="PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e"/>
+          </party>
+        </attester>
+        <custodian>
+          <reference value="Organization/70a756e3-20b3-4637-8601-a222983e295a"/>
+        </custodian>
+        <relatesTo>
+          <code value="transforms"/>
+          <targetIdentifier>
+            <system value="urn:oid:2.16.840.1.113883.2.18.7.2"/>
+            <value value="59f51f0b-2005-485c-858e-3d3ae9657287"/>
+          </targetIdentifier>
+        </relatesTo>
+        <event>
+          <code>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v3-ActClass"/>
+              <code value="PCPR"/>
+            </coding>
+          </code>
+          <period>
+            <end value="2021-05-03"/>
+          </period>
+        </event>
+        <section>
+          <title value="Allergies and Intolerances"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="48765-2"/>
+              <display value="Allergies and adverse reactions Document"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/><div xml:lang="en-NZ" xmlns="http://www.w3.org/1999/xhtml" lang="en-NZ">There is no information available regarding the subject's allergies.</div>
+          </text>
+          <emptyReason>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+              <code value="unavailable"/>
+              <display value="Unavailable"/>
+            </coding>
+            <text value="No information available"/>
+          </emptyReason>
+        </section>
+        <section>
+          <title value="Problem List"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="11450-4"/>
+              <display value="Problem list - Reported"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/><div xml:lang="en-NZ" xmlns="http://www.w3.org/1999/xhtml" lang="en-NZ">There is no information available about the subject's health problems or disabilities.</div>
+          </text>
+          <emptyReason>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+              <code value="unavailable"/>
+              <display value="Unavailable"/>
+            </coding>
+            <text value="No information available"/>
+          </emptyReason>
+        </section>
+        <section>
+          <title value="Medication Summary"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="10160-0"/>
+              <display value="History of Medication use Narrative"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/><div xml:lang="en-NZ" xmlns="http://www.w3.org/1999/xhtml" lang="en-NZ">There is no information available about the subject's medication use or administration.</div>
+          </text>
+          <emptyReason>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+              <code value="unavailable"/>
+              <display value="Unavailable"/>
+            </coding>
+            <text value="No information available"/>
+          </emptyReason>
+        </section>
+        <section>
+          <title value="Immunizations"/>
+          <code>
+            <coding>
+              <system value="http://loinc.org"/>
+              <code value="11369-6"/>
+              <display value="History of Immunization Narrative"/>
+            </coding>
+          </code>
+          <text>
+            <status value="generated"/><div xml:lang="en-NZ" xmlns="http://www.w3.org/1999/xhtml"><table><thead><tr><th>Vaccine</th><th>Date</th><th>Seq</th><th>Route</th><th>Site</th><th>Indication</th><th>Status</th></tr></thead><tbody><tr><td>Influenza</td><td>03/07/2020</td><td>2</td><td>Injection, intramuscular</td><td>Entire left upper arm</td><td>Eligible condition (Influenza)</td><td>completed</td></tr><tr><td>Influenza</td><td>03/06/2019</td><td>1</td><td>Injection, intramuscular</td><td>Entire left upper arm</td><td>Eligible condition (Influenza)</td><td>completed</td></tr></tbody></table></div>
+          </text>
+          <entry>
+            <reference value="Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772"/>
+          </entry>
+          <entry>
+            <reference value="Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2"/>
+          </entry>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Patient/AAA1234"/>
+    <resource>
+      <Patient>
+        <id value="AAA1234"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Patient_AAA1234"> </a><p class="res-header-id"><b>Generated Narrative: Patient AAA1234</b></p><a name="AAA1234"> </a><a name="hcAAA1234"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">James Judge  Male, DoB: 1985-04-25 ( https://standards.digital.health.nz/ns/nhi-id#AAA1234)</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Known Marital status of Patient">Marital Status:</td><td colspan="3"><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}">Married</span></td></tr><tr><td style="background-color: #f3f5da" title="Ways to contact the Patient">Contact Detail</td><td colspan="3"><ul><li>ph: tel:+6478532279(Home)</li><li>Bleak House 3 Worcester Drive Rototuna North Hamilton 3210 NZ (home)</li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Language spoken">Language:</td><td colspan="3"><span title="Codes:{urn:ietf:bcp:47 en-NZ}">English (Region=New Zealand)</span></td></tr><tr><td style="background-color: #f3f5da" title="Nominated Contact: family member">family member:</td><td colspan="3"><ul><li>Natural mother mother </li></ul></td></tr><tr><td style="background-color: #f3f5da" title="Nominated Contact: unrelated friend">unrelated friend:</td><td colspan="3"><ul><li>Peter Rabbit Rabbit </li><li>9 Worcester Drive Rototuna Hamilton 3210 NZ (home)</li><li>ph: 07 853 9191(Home)</li></ul></td></tr></table></div>
+        </text>
+        <identifier>
+          <system value="https://standards.digital.health.nz/ns/nhi-id"/>
+          <value value="AAA1234"/>
+        </identifier>
+        <name>
+          <use value="usual"/>
+          <family value="Judge"/>
+          <given value="James"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="tel:+6478532279"/>
+          <use value="home"/>
+        </telecom>
+        <gender value="male"/>
+        <birthDate value="1985-04-25"/>
+        <address>
+          <use value="home"/>
+          <type value="physical"/>
+          <line value="Bleak House"/>
+          <line value="3 Worcester Drive"/>
+          <line value="Rototuna North"/>
+          <city value="Hamilton"/>
+          <postalCode value="3210"/>
+          <country value="NZ"/>
+        </address>
+        <maritalStatus>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="M"/>
+            <display value="Married"/>
+          </coding>
+        </maritalStatus>
+        <contact>
+          <relationship>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+              <code value="FAMMEMB"/>
+              <display value="family member"/>
+            </coding>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+              <code value="N"/>
+              <display value="Next-of-Kin"/>
+            </coding>
+          </relationship>
+          <name>
+            <use value="usual"/>
+            <family value="mother"/>
+            <given value="Natural"/>
+            <given value="mother"/>
+          </name>
+        </contact>
+        <contact>
+          <relationship>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+              <code value="FRND"/>
+              <display value="unrelated friend"/>
+            </coding>
+            <coding>
+              <system value="http://terminology.hl7.org/CodeSystem/v2-0131"/>
+              <code value="C"/>
+              <display value="Emergency Contact"/>
+            </coding>
+          </relationship>
+          <name>
+            <use value="usual"/>
+            <family value="Rabbit"/>
+            <given value="Peter"/>
+            <given value="Rabbit"/>
+          </name>
+          <telecom>
+            <system value="phone"/>
+            <value value="07 853 9191"/>
+            <use value="home"/>
+          </telecom>
+          <address>
+            <use value="home"/>
+            <type value="physical"/>
+            <line value="9 Worcester Drive"/>
+            <line value="Rototuna"/>
+            <city value="Hamilton"/>
+            <postalCode value="3210"/>
+            <country value="NZ"/>
+          </address>
+        </contact>
+        <communication>
+          <language>
+            <coding>
+              <system value="urn:ietf:bcp:47"/>
+              <code value="en-NZ"/>
+            </coding>
+          </language>
+        </communication>
+      </Patient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"/>
+    <resource>
+      <Organization>
+        <id value="d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"> </a><p class="res-header-id"><b>Generated Narrative: Organization d9b97b04-b606-4f07-baf2-7eb3dcae0a2a</b></p><a name="d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"> </a><a name="hcd9b97b04-b606-4f07-baf2-7eb3dcae0a2a"> </a><p><b>identifier</b>: <code>https://standards.digital.health.nz/ns/hpi-facility-id</code>/F0K068-E</p><p><b>name</b>: Northcare, Thomas Road</p></div>
+        </text>
+        <identifier>
+          <system value="https://standards.digital.health.nz/ns/hpi-facility-id"/>
+          <value value="F0K068-E"/>
+        </identifier>
+        <name value="Northcare, Thomas Road"/>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e"/>
+    <resource>
+      <PractitionerRole>
+        <id value="f54d8c90-aea2-46b0-8f7a-8683db78344e"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e"> </a><p class="res-header-id"><b>Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e</b></p><a name="f54d8c90-aea2-46b0-8f7a-8683db78344e"> </a><a name="hcf54d8c90-aea2-46b0-8f7a-8683db78344e"> </a><p><b>practitioner</b>: <a href="Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 158965000}">Doctor</span></p></div>
+        </text>
+        <practitioner>
+          <reference value="Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1"/>
+        </practitioner>
+        <code>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="158965000"/>
+            <display value="Doctor"/>
+          </coding>
+        </code>
+      </PractitionerRole>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1"/>
+    <resource>
+      <Practitioner>
+        <id value="19c24876-ccf8-45e7-8b66-462317e970f1"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1"> </a><p class="res-header-id"><b>Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1</b></p><a name="19c24876-ccf8-45e7-8b66-462317e970f1"> </a><a name="hc19c24876-ccf8-45e7-8b66-462317e970f1"> </a><p><b>name</b>: Dr Richard Kildare Kildare </p><p><b>telecom</b>: ph: tel:+6478539191(Work)</p><p><b>address</b>: 12 Thomas Rd Huntingdon Hamilton 3211 NZ (work)</p></div>
+        </text>
+        <name>
+          <use value="usual"/>
+          <family value="Kildare"/>
+          <given value="Dr"/>
+          <given value="Richard"/>
+          <given value="Kildare"/>
+        </name>
+        <telecom>
+          <system value="phone"/>
+          <value value="tel:+6478539191"/>
+          <use value="work"/>
+        </telecom>
+        <address>
+          <use value="work"/>
+          <type value="physical"/>
+          <line value="12 Thomas Rd"/>
+          <line value="Huntingdon"/>
+          <city value="Hamilton"/>
+          <postalCode value="3211"/>
+          <country value="NZ"/>
+        </address>
+      </Practitioner>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a"/>
+    <resource>
+      <Organization>
+        <id value="70a756e3-20b3-4637-8601-a222983e295a"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Organization_70a756e3-20b3-4637-8601-a222983e295a"> </a><p class="res-header-id"><b>Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a</b></p><a name="70a756e3-20b3-4637-8601-a222983e295a"> </a><a name="hc70a756e3-20b3-4637-8601-a222983e295a"> </a><p><b>identifier</b>: <code>https://standards.digital.health.nz/ns/psychotherapists-board-id</code>/F2N000-J</p><p><b>name</b>: NorthCare Pukete Road</p></div>
+        </text>
+        <identifier>
+          <system value="https://standards.digital.health.nz/ns/psychotherapists-board-id"/>
+          <value value="F2N000-J"/>
+        </identifier>
+        <name value="NorthCare Pukete Road"/>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772"/>
+    <resource>
+      <Immunization>
+        <id value="4ab062b3-8843-4b98-af62-3d6d178a3772"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Immunization_4ab062b3-8843-4b98-af62-3d6d178a3772"> </a><p class="res-header-id"><b>Generated Narrative: Immunization 4ab062b3-8843-4b98-af62-3d6d178a3772</b></p><a name="4ab062b3-8843-4b98-af62-3d6d178a3772"> </a><a name="hc4ab062b3-8843-4b98-af62-3d6d178a3772"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://hl7.org/fhir/sid/cvx 141}">Influenza, seasonal, injectable</span></p><p><b>patient</b>: <a href="Bundle-bundle-no-info-required-sections.html#Patient_AAA1234">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>occurrence</b>: 2020-07-03</p><p><b>lotNumber</b>: B52b</p><p><b>expirationDate</b>: 2020-07-03</p><p><b>site</b>: <span title="Codes:{http://snomed.info/sct 72098002}">Entire left upper arm</span></p><p><b>route</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}">Injection, intramuscular</span></p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><a href="Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><h3>ProtocolApplieds</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Series</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td style="display: none">*</td><td>45y (Eligible condition (Influenza))</td><td>2</td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <vaccineCode>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/cvx"/>
+            <code value="141"/>
+            <display value="Influenza, seasonal, injectable"/>
+          </coding>
+        </vaccineCode>
+        <patient>
+          <reference value="Patient/AAA1234"/>
+        </patient>
+        <occurrenceDateTime value="2020-07-03"/>
+        <lotNumber value="B52b"/>
+        <expirationDate value="2020-07-03"/>
+        <site>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="72098002"/>
+            <display value="Entire left upper arm"/>
+          </coding>
+        </site>
+        <route>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>
+            <code value="IM"/>
+            <display value="Injection, intramuscular"/>
+          </coding>
+        </route>
+        <performer>
+          <actor>
+            <reference value="Organization/70a756e3-20b3-4637-8601-a222983e295a"/>
+          </actor>
+        </performer>
+        <protocolApplied>
+          <series value="45y (Eligible condition (Influenza))"/>
+          <doseNumberPositiveInt value="2"/>
+        </protocolApplied>
+      </Immunization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2"/>
+    <resource>
+      <Immunization>
+        <id value="bd6c6537-6c5a-4fa8-8d26-2b49377425a2"/>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><a name="Immunization_bd6c6537-6c5a-4fa8-8d26-2b49377425a2"> </a><p class="res-header-id"><b>Generated Narrative: Immunization bd6c6537-6c5a-4fa8-8d26-2b49377425a2</b></p><a name="bd6c6537-6c5a-4fa8-8d26-2b49377425a2"> </a><a name="hcbd6c6537-6c5a-4fa8-8d26-2b49377425a2"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title="Codes:{http://hl7.org/fhir/sid/cvx 141}">Influenza, seasonal, injectable</span></p><p><b>patient</b>: <a href="Bundle-bundle-no-info-required-sections.html#Patient_AAA1234">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>occurrence</b>: 2019-06-03</p><p><b>lotNumber</b>: B52</p><p><b>expirationDate</b>: 2019-08-03</p><p><b>site</b>: <span title="Codes:{http://snomed.info/sct 72098002}">Entire left upper arm</span></p><p><b>route</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}">Injection, intramuscular</span></p><h3>Performers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Actor</b></td></tr><tr><td style="display: none">*</td><td><a href="Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><h3>ProtocolApplieds</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Series</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td style="display: none">*</td><td>45y (Eligible condition (Influenza))</td><td>1</td></tr></table></div>
+        </text>
+        <status value="completed"/>
+        <vaccineCode>
+          <coding>
+            <system value="http://hl7.org/fhir/sid/cvx"/>
+            <code value="141"/>
+            <display value="Influenza, seasonal, injectable"/>
+          </coding>
+        </vaccineCode>
+        <patient>
+          <reference value="Patient/AAA1234"/>
+        </patient>
+        <occurrenceDateTime value="2019-06-03"/>
+        <lotNumber value="B52"/>
+        <expirationDate value="2019-08-03"/>
+        <site>
+          <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="72098002"/>
+            <display value="Entire left upper arm"/>
+          </coding>
+        </site>
+        <route>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"/>
+            <code value="IM"/>
+            <display value="Injection, intramuscular"/>
+          </coding>
+        </route>
+        <performer>
+          <actor>
+            <reference value="Organization/70a756e3-20b3-4637-8601-a222983e295a"/>
+          </actor>
+        </performer>
+        <protocolApplied>
+          <series value="45y (Eligible condition (Influenza))"/>
+          <doseNumberPositiveInt value="1"/>
+        </protocolApplied>
+      </Immunization>
+    </resource>
+  </entry>
+</Bundle>

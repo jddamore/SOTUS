@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "hl7.fhir.us.sotus",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/us/sotus/ImplementationGuide/hl7.fhir.us.sotus",
+    "version" : "0.0.1",
+    "name" : "USSOTUS"
+  },
+  {
+    "id" : "Bundle-us-sotus",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus",
+    "version" : "0.0.1",
+    "name" : "BundleUsSotus"
+  },
+  {
+    "id" : "Composition-us-sotus",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus",
+    "version" : "0.0.1",
+    "name" : "CompositionUsSotus"
+  }
+]

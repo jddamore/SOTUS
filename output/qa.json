@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.org/fhir/us/sotus/ImplementationGuide/hl7.fhir.us.sotus",
+  "name" : "USSOTUS",
+  "title" : "US Summary of the United States",
+  "description" : "",
+  "status" : "active",
+  "package-id" : "hl7.fhir.us.sotus",
+  "ig-ver" : "0.0.1",
+  "date" : "Thu, 28 Aug, 2025 11:12:07 -0400",
+  "dateISO8601" : "2025-08-28T11:12:07-04:00",
+  "errs" : 9,
+  "warnings" : 36,
+  "hints" : 16,
+  "suppressed-hints" : 238,
+  "suppressed-warnings" : 9,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 4763998608
+}
