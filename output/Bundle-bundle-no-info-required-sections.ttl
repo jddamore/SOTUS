@@ -13,52 +13,47 @@
   fhir:id [ fhir:v "bundle-no-info-required-sections"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips>
+       fhir:v "http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus>
      ] )
   ] ; # 
-  fhir:language [ fhir:v "en-NZ"] ; # 
+  fhir:language [ fhir:v "en-US"] ; # 
   fhir:identifier [
      fhir:system [ fhir:v "urn:oid:2.16.724.4.8.10.200.10"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "59f51f0b-2005-485c-858e-3d3ae9657287" ]
   ] ; # 
   fhir:type [ fhir:v "document"] ; # 
-  fhir:timestamp [ fhir:v "2022-01-08T20:42:11.0607701+00:00"^^xsd:dateTime] ; # 
+  fhir:timestamp [ fhir:v "2025-01-08T20:42:11.0607701+00:00"^^xsd:dateTime] ; # 
   fhir:entry ( [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a> )
+     fhir:fullUrl [ fhir:v "https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a"^^xsd:anyURI ] ;
+     fhir:resource ( <https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a> )
   ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Patient/AAA1234"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Patient/AAA1234> )
+     fhir:fullUrl [ fhir:v "https://example.fhir.org/fhir/Patient/AAA1234"^^xsd:anyURI ] ;
+     fhir:resource ( <https://example.fhir.org/fhir/Patient/AAA1234> )
   ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a> )
+     fhir:fullUrl [ fhir:v "https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e"^^xsd:anyURI ] ;
+     fhir:resource ( <https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e> )
   ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e> )
+     fhir:fullUrl [ fhir:v "https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1"^^xsd:anyURI ] ;
+     fhir:resource ( <https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> )
   ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> )
-  ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a> )
-  ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772> )
-  ] [
-     fhir:fullUrl [ fhir:v "https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2"^^xsd:anyURI ] ;
-     fhir:resource ( <https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2> )
+     fhir:fullUrl [ fhir:v "https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a"^^xsd:anyURI ] ;
+     fhir:resource ( <https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a> )
   ] ) . # 
 
-<https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a> a fhir:Composition ;
+<https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a> a fhir:Composition ;
   fhir:id [ fhir:v "514af4c1-194d-48b4-8afe-7be09d3f895a"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "1" ]
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus>
+     ] )
   ] ; # 
-  fhir:language [ fhir:v "en-NZ"] ; # 
+  fhir:language [ fhir:v "en-US"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-NZ\" lang=\"en-NZ\"><a name=\"Composition_514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a</b></p><a name=\"514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><a name=\"hc514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Language: en-NZ</p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 60591-5}\">Patient summary Document</span></p><p><b>date</b>: 2021-05-03</p><p><b>author</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>title</b>: International Patient Summary</p><p><b>confidentiality</b>: normal</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style=\"display: none\">*</td><td>Professional</td><td>2021-05-03</td><td><a href=\"Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><p><b>custodian</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><h3>RelatesTos</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Target[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Transforms</td><td><code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</td></tr></table><h3>Events</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Period</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}\">care provision</span></td><td>?? --&gt; 2021-05-03</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><a name=\"Composition_514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a</b></p><a name=\"514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><a name=\"hc514af4c1-194d-48b4-8afe-7be09d3f895a\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Language: en-US</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-us-sotus.html\">Composition (SOTUS)</a></p></div><p><b>identifier</b>: <code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 60591-5}\">Patient summary Document</span></p><p><b>date</b>: 2021-05-03</p><p><b>author</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000</a></p><p><b>title</b>: Patient Summary as of 2021-05-03</p><p><b>confidentiality</b>: normal</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style=\"display: none\">*</td><td>Professional</td><td>2021-05-03</td><td><a href=\"Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000</a></td></tr></table><p><b>custodian</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000</a></p><h3>RelatesTos</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Target[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Transforms</td><td><code>urn:oid:2.16.840.1.113883.2.18.7.2</code>/59f51f0b-2005-485c-858e-3d3ae9657287</td></tr></table><h3>Events</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Period</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}\">care provision</span></td><td>?? --&gt; 2021-05-03</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier [
      fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.2.18.7.2"^^xsd:anyURI ] ;
@@ -79,10 +74,10 @@
   ] ; # 
   fhir:date [ fhir:v "2021-05-03"^^xsd:date] ; # 
   fhir:author ( [
-     fhir:link <http://hl7.org/fhir/us/sotus/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a> ;
-     fhir:reference [ fhir:v "Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a" ]
+     fhir:link <http://hl7.org/fhir/us/sotus/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> ;
+     fhir:reference [ fhir:v "Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1" ]
   ] ) ; # 
-  fhir:title [ fhir:v "International Patient Summary"] ; # 
+  fhir:title [ fhir:v "Patient Summary as of 2021-05-03"] ; # 
   fhir:confidentiality [ fhir:v "N"] ; # 
   fhir:attester ( [
      fhir:mode [ fhir:v "professional" ] ;
@@ -116,28 +111,6 @@
      ]
   ] ) ; # 
   fhir:section ( [
-     fhir:title [ fhir:v "Allergies and Intolerances" ] ;
-     fhir:code [
-       fhir:coding ( [
-         a loinc:48765-2 ;
-         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "48765-2" ] ;
-         fhir:display [ fhir:v "Allergies and adverse reactions Document" ]
-       ] )
-     ] ;
-     fhir:text [
-       fhir:status [ fhir:v "generated" ] ;
-       fhir:div "<div xml:lang=\"en-NZ\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-NZ\">There is no information available regarding the subject's allergies.</div>"^^rdf:XMLLiteral
-     ] ;
-     fhir:emptyReason [
-       fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "unavailable" ] ;
-         fhir:display [ fhir:v "Unavailable" ]
-       ] ) ;
-       fhir:text [ fhir:v "No information available" ]
-     ]
-  ] [
      fhir:title [ fhir:v "Problem List" ] ;
      fhir:code [
        fhir:coding ( [
@@ -149,7 +122,29 @@
      ] ;
      fhir:text [
        fhir:status [ fhir:v "generated" ] ;
-       fhir:div "<div xml:lang=\"en-NZ\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-NZ\">There is no information available about the subject's health problems or disabilities.</div>"^^rdf:XMLLiteral
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available about the subject's health problems or disabilities.</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] ) ;
+       fhir:text [ fhir:v "No information available" ]
+     ]
+  ] [
+     fhir:title [ fhir:v "Allergies and Intolerances" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:48765-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "48765-2" ] ;
+         fhir:display [ fhir:v "Allergies and adverse reactions Document" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available regarding the subject's allergies.</div>"^^rdf:XMLLiteral
      ] ;
      fhir:emptyReason [
        fhir:coding ( [
@@ -171,7 +166,7 @@
      ] ;
      fhir:text [
        fhir:status [ fhir:v "generated" ] ;
-       fhir:div "<div xml:lang=\"en-NZ\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-NZ\">There is no information available about the subject's medication use or administration.</div>"^^rdf:XMLLiteral
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available about the subject's medication use or administration.</div>"^^rdf:XMLLiteral
      ] ;
      fhir:emptyReason [
        fhir:coding ( [
@@ -182,308 +177,413 @@
        fhir:text [ fhir:v "No information available" ]
      ]
   ] [
-     fhir:title [ fhir:v "Immunizations" ] ;
+     fhir:title [ fhir:v "Results" ] ;
      fhir:code [
        fhir:coding ( [
-         a loinc:11369-6 ;
+         a loinc:30954-2 ;
          fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "11369-6" ] ;
-         fhir:display [ fhir:v "History of Immunization Narrative" ]
+         fhir:code [ fhir:v "30954-2" ] ;
+         fhir:display [ fhir:v "Relevant diagnostic tests/laboratory data note" ]
        ] )
      ] ;
      fhir:text [
        fhir:status [ fhir:v "generated" ] ;
-       fhir:div "<div xml:lang=\"en-NZ\" xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Vaccine</th><th>Date</th><th>Seq</th><th>Route</th><th>Site</th><th>Indication</th><th>Status</th></tr></thead><tbody><tr><td>Influenza</td><td>03/07/2020</td><td>2</td><td>Injection, intramuscular</td><td>Entire left upper arm</td><td>Eligible condition (Influenza)</td><td>completed</td></tr><tr><td>Influenza</td><td>03/06/2019</td><td>1</td><td>Injection, intramuscular</td><td>Entire left upper arm</td><td>Eligible condition (Influenza)</td><td>completed</td></tr></tbody></table></div>"^^rdf:XMLLiteral
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available about the subject's relevant diagnostic tests or laboratory data.</div>"^^rdf:XMLLiteral
      ] ;
-     fhir:entry ( [
-       fhir:link <http://hl7.org/fhir/us/sotus/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772> ;
-       fhir:reference [ fhir:v "Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772" ]
-     ] [
-       fhir:link <http://hl7.org/fhir/us/sotus/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2> ;
-       fhir:reference [ fhir:v "Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2" ]
-     ] )
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] ) ;
+       fhir:text [ fhir:v "No information available" ]
+     ]
+  ] [
+     fhir:title [ fhir:v "Social History" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:29762-2 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "29762-2" ] ;
+         fhir:display [ fhir:v "Social history note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available about the subject's social history.</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] ) ;
+       fhir:text [ fhir:v "No information available" ]
+     ]
+  ] [
+     fhir:title [ fhir:v "Vital Signs" ] ;
+     fhir:code [
+       fhir:coding ( [
+         a loinc:8716-3 ;
+         fhir:system [ fhir:v "http://loinc.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "8716-3" ] ;
+         fhir:display [ fhir:v "Vital signs note" ]
+       ] )
+     ] ;
+     fhir:text [
+       fhir:status [ fhir:v "generated" ] ;
+       fhir:div "<div xml:lang=\"en-US\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en-US\">There is no information available about the subject's vital signs.</div>"^^rdf:XMLLiteral
+     ] ;
+     fhir:emptyReason [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/list-empty-reason"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "unavailable" ] ;
+         fhir:display [ fhir:v "Unavailable" ]
+       ] ) ;
+       fhir:text [ fhir:v "No information available" ]
+     ]
   ] ) . # 
 
 <http://hl7.org/fhir/us/sotus/Patient/AAA1234> a fhir:us .
 
-<http://hl7.org/fhir/us/sotus/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a> a fhir:us .
+<http://hl7.org/fhir/us/sotus/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> a fhir:us .
 
 <http://hl7.org/fhir/us/sotus/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e> a fhir:us .
 
 <http://hl7.org/fhir/us/sotus/Organization/70a756e3-20b3-4637-8601-a222983e295a> a fhir:us .
 
-<http://hl7.org/fhir/us/sotus/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772> a fhir:us .
-
-<http://hl7.org/fhir/us/sotus/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2> a fhir:us .
-
-<https://terminz.azurewebsites.net/fhir/Patient/AAA1234> a fhir:Patient ;
+<https://example.fhir.org/fhir/Patient/AAA1234> a fhir:Patient ;
   fhir:id [ fhir:v "AAA1234"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_AAA1234\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient AAA1234</b></p><a name=\"AAA1234\"> </a><a name=\"hcAAA1234\"> </a><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">James Judge  Male, DoB: 1985-04-25 ( https://standards.digital.health.nz/ns/nhi-id#AAA1234)</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Known Marital status of Patient\">Marital Status:</td><td colspan=\"3\"><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\">Married</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: tel:+6478532279(Home)</li><li>Bleak House 3 Worcester Drive Rototuna North Hamilton 3210 NZ (home)</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{urn:ietf:bcp:47 en-NZ}\">English (Region=New Zealand)</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: family member\">family member:</td><td colspan=\"3\"><ul><li>Natural mother mother </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Nominated Contact: unrelated friend\">unrelated friend:</td><td colspan=\"3\"><ul><li>Peter Rabbit Rabbit </li><li>9 Worcester Drive Rototuna Hamilton 3210 NZ (home)</li><li>ph: 07 853 9191(Home)</li></ul></td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Patient_AAA1234\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Patient AAA1234</b></p><a name=\"AAA1234\"> </a><a name=\"hcAAA1234\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-patient.html\">US Core Patient Profileversion: null8.0.0)</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Amy V. Baxter  (no stated gender), DoB: 1987-02-20 ( Medical Record Number: 1032702 (use: usual, ))</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"Record is active\">Active:</td><td colspan=\"3\">true</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Alternate names (see the one above)\">Alt. Name:</td><td colspan=\"3\">Amy V. Shaw (Old)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the Patient\">Contact Detail</td><td colspan=\"3\"><ul><li>ph: 555-555-5555(Home)</li><li><a href=\"mailto:amy.shaw@example.com\">amy.shaw@example.com</a></li><li>49 MEADOW ST MOUNDS OK 74047 US (old)</li><li>183 MOUNTAIN VIEW ST MOUNDS OK 74048 US </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Language spoken\">Language:</td><td colspan=\"3\"><span title=\"Codes:{urn:ietf:bcp:47 es}\">Spanish</span> (preferred)</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"USCDI includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with the USCDI definition of Sex: &quot;Documentation of a specific instance of sex.&quot; It enables systems to share the sex value as it was documented in a particular context.  Systems choosing to record sources of information should use the [Provenance resource](element-level-provenance.html).\"><a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-sex.html\">US Core Sex Extension</a></td><td colspan=\"3\"><a href=\"http://snomed.info/sct/731000124108/id/248152002\">SNOMED CT 248152002</a>: Female (finding) (version = http://snomed.info/sct/731000124108 )</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.\">US Core Ethnicity Extension:</td><td colspan=\"3\"><ul><li>ombCategory: CDC Race and Ethnicity 2135-2: Hispanic or Latino</li><li>detailed: CDC Race and Ethnicity 2184-0: Dominican</li><li>detailed: CDC Race and Ethnicity 2148-5: Mexican</li><li>text: Hispanic or Latino</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html#3) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:#xA;#xA; - American Indian or Alaska Native#xA; - Asian#xA; - Black or African American#xA; - Native Hawaiian or Other Pacific Islander#xA; - White.\">US Core Race Extension:</td><td colspan=\"3\"><ul><li>ombCategory: CDC Race and Ethnicity 2106-3: White</li><li>ombCategory: CDC Race and Ethnicity 1002-5: American Indian or Alaska Native</li><li>ombCategory: CDC Race and Ethnicity 2028-9: Asian</li><li>detailed: CDC Race and Ethnicity 1586-7: Shoshone</li><li>detailed: CDC Race and Ethnicity 2036-2: Filipino</li><li>text: Mixed</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"This Extension profile represents a tribe or band with which a person associates and, optionally, whether they are enrolled.\">US Core Tribal Affiliation Extension:</td><td colspan=\"3\"><ul><li>tribalAffiliation: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS 187}\">Shoshone</span></li><li>isEnrolled: false</li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"This extension indicates the individual's need for an interpreter to communicate healthcare information in a language other than the default language of the organization. It has the same meaning as the LOINC [54588-9](https://loinc.org/54588-9) (Interpreter needed)\"><a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-interpreter-needed.html\">US Core Interpreter Needed Extension</a></td><td colspan=\"3\"><a href=\"http://snomed.info/sct/731000124108/id/373066001\">SNOMED CT 373066001</a>: Yes (qualifier value) (version = http://snomed.info/sct/731000124108 )</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
-  fhir:identifier ( [
-     fhir:system [ fhir:v "https://standards.digital.health.nz/ns/nhi-id"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "AAA1234" ]
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2106-3" ] ;
+         fhir:display [ fhir:v "White" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1002-5" ] ;
+         fhir:display [ fhir:v "American Indian or Alaska Native" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2028-9" ] ;
+         fhir:display [ fhir:v "Asian" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "detailed"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "1586-7" ] ;
+         fhir:display [ fhir:v "Shoshone" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "detailed"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2036-2" ] ;
+         fhir:display [ fhir:v "Filipino" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Mixed"
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "ombCategory"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2135-2" ] ;
+         fhir:display [ fhir:v "Hispanic or Latino" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "detailed"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2184-0" ] ;
+         fhir:display [ fhir:v "Dominican" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "detailed"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Coding ;
+         fhir:system [ fhir:v "urn:oid:2.16.840.1.113883.6.238"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "2148-5" ] ;
+         fhir:display [ fhir:v "Mexican" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "text"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:string ;
+         fhir:v "Hispanic or Latino"
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity"^^xsd:anyURI ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "tribalAffiliation"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "187" ] ;
+           fhir:display [ fhir:v "Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada" ]
+         ] ) ;
+         fhir:text [ fhir:v "Shoshone" ]
+       ]
+     ] [
+       fhir:url [ fhir:v "isEnrolled"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation"^^xsd:anyURI ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:248152002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "http://snomed.info/sct/731000124108" ] ;
+       fhir:code [ fhir:v "248152002" ] ;
+       fhir:display [ fhir:v "Female (finding)" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Coding, sct:373066001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:version [ fhir:v "http://snomed.info/sct/731000124108" ] ;
+       fhir:code [ fhir:v "373066001" ]
+     ]
   ] ) ; # 
-  fhir:name ( [
+  fhir:identifier ( [
      fhir:use [ fhir:v "usual" ] ;
-     fhir:family [ fhir:v "Judge" ] ;
-     fhir:given ( [ fhir:v "James" ] )
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0203"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Medical Record Number" ]
+       ] ) ;
+       fhir:text [ fhir:v "Medical Record Number" ]
+     ] ;
+     fhir:system [ fhir:v "http://example.org/patient/identifiers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1032702" ]
+  ] ) ; # 
+  fhir:active [ fhir:v true] ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "old" ] ;
+     fhir:family [ fhir:v "Shaw" ] ;
+     fhir:given ( [ fhir:v "Amy" ] [ fhir:v "V." ] ) ;
+     fhir:period [
+       fhir:start [ fhir:v "2016-12-06"^^xsd:date ] ;
+       fhir:end [ fhir:v "2020-07-22"^^xsd:date ]
+     ]
+  ] [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:family [ fhir:v "Baxter" ] ;
+     fhir:given ( [ fhir:v "Amy" ] [ fhir:v "V." ] ) ;
+     fhir:suffix ( [ fhir:v "PharmD" ] ) ;
+     fhir:period [
+       fhir:start [ fhir:v "2020-07-22"^^xsd:date ]
+     ]
   ] ) ; # 
   fhir:telecom ( [
      fhir:system [ fhir:v "phone" ] ;
-     fhir:value [ fhir:v "tel:+6478532279" ] ;
+     fhir:value [ fhir:v "555-555-5555" ] ;
      fhir:use [ fhir:v "home" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "amy.shaw@example.com" ]
   ] ) ; # 
-  fhir:gender [ fhir:v "male"] ; # 
-  fhir:birthDate [ fhir:v "1985-04-25"^^xsd:date] ; # 
+  fhir:birthDate [ fhir:v "1987-02-20"^^xsd:date] ; # 
   fhir:address ( [
-     fhir:use [ fhir:v "home" ] ;
-     fhir:type [ fhir:v "physical" ] ;
-     fhir:line ( [ fhir:v "Bleak House" ] [ fhir:v "3 Worcester Drive" ] [ fhir:v "Rototuna North" ] ) ;
-     fhir:city [ fhir:v "Hamilton" ] ;
-     fhir:postalCode [ fhir:v "3210" ] ;
-     fhir:country [ fhir:v "NZ" ]
-  ] ) ; # 
-  fhir:maritalStatus [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "M" ] ;
-       fhir:display [ fhir:v "Married" ]
-     ] )
-  ] ; # 
-  fhir:contact ( [
-     fhir:relationship ( [
-       fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "FAMMEMB" ] ;
-         fhir:display [ fhir:v "family member" ]
-       ] [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "N" ] ;
-         fhir:display [ fhir:v "Next-of-Kin" ]
-       ] )
-     ] ) ;
-     fhir:name [
-       fhir:use [ fhir:v "usual" ] ;
-       fhir:family [ fhir:v "mother" ] ;
-       fhir:given ( [ fhir:v "Natural" ] [ fhir:v "mother" ] )
+     fhir:use [ fhir:v "old" ] ;
+     fhir:line ( [ fhir:v "49 MEADOW ST" ] ) ;
+     fhir:city [ fhir:v "MOUNDS" ] ;
+     fhir:state [ fhir:v "OK" ] ;
+     fhir:postalCode [ fhir:v "74047" ] ;
+     fhir:country [ fhir:v "US" ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2016-12-06"^^xsd:date ] ;
+       fhir:end [ fhir:v "2020-07-22"^^xsd:date ]
      ]
   ] [
-     fhir:relationship ( [
-       fhir:coding ( [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "FRND" ] ;
-         fhir:display [ fhir:v "unrelated friend" ]
-       ] [
-         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v2-0131"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "C" ] ;
-         fhir:display [ fhir:v "Emergency Contact" ]
-       ] )
-     ] ) ;
-     fhir:name [
-       fhir:use [ fhir:v "usual" ] ;
-       fhir:family [ fhir:v "Rabbit" ] ;
-       fhir:given ( [ fhir:v "Peter" ] [ fhir:v "Rabbit" ] )
-     ] ;
-     fhir:telecom ( [
-       fhir:system [ fhir:v "phone" ] ;
-       fhir:value [ fhir:v "07 853 9191" ] ;
-       fhir:use [ fhir:v "home" ]
-     ] ) ;
-     fhir:address [
-       fhir:use [ fhir:v "home" ] ;
-       fhir:type [ fhir:v "physical" ] ;
-       fhir:line ( [ fhir:v "9 Worcester Drive" ] [ fhir:v "Rototuna" ] ) ;
-       fhir:city [ fhir:v "Hamilton" ] ;
-       fhir:postalCode [ fhir:v "3210" ] ;
-       fhir:country [ fhir:v "NZ" ]
+     fhir:line ( [ fhir:v "183 MOUNTAIN VIEW ST" ] ) ;
+     fhir:city [ fhir:v "MOUNDS" ] ;
+     fhir:state [ fhir:v "OK" ] ;
+     fhir:postalCode [ fhir:v "74048" ] ;
+     fhir:country [ fhir:v "US" ] ;
+     fhir:period [
+       fhir:start [ fhir:v "2020-07-22"^^xsd:date ]
      ]
   ] ) ; # 
   fhir:communication ( [
      fhir:language [
        fhir:coding ( [
          fhir:system [ fhir:v "urn:ietf:bcp:47"^^xsd:anyURI ] ;
-         fhir:code [ fhir:v "en-NZ" ]
+         fhir:code [ fhir:v "es" ] ;
+         fhir:display [ fhir:v "Spanish" ]
        ] )
-     ]
+     ] ;
+     fhir:preferred [ fhir:v true ]
   ] ) . # 
 
-<https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a> a fhir:Organization ;
-  fhir:id [ fhir:v "d9b97b04-b606-4f07-baf2-7eb3dcae0a2a"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization d9b97b04-b606-4f07-baf2-7eb3dcae0a2a</b></p><a name=\"d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\"> </a><a name=\"hcd9b97b04-b606-4f07-baf2-7eb3dcae0a2a\"> </a><p><b>identifier</b>: <code>https://standards.digital.health.nz/ns/hpi-facility-id</code>/F0K068-E</p><p><b>name</b>: Northcare, Thomas Road</p></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:identifier ( [
-     fhir:system [ fhir:v "https://standards.digital.health.nz/ns/hpi-facility-id"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "F0K068-E" ]
-  ] ) ; # 
-  fhir:name [ fhir:v "Northcare, Thomas Road"] . # 
-
-<https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e> a fhir:PractitionerRole ;
+<https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e> a fhir:PractitionerRole ;
   fhir:id [ fhir:v "f54d8c90-aea2-46b0-8f7a-8683db78344e"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e</b></p><a name=\"f54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><a name=\"hcf54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><p><b>practitioner</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 158965000}\">Doctor</span></p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e</b></p><a name=\"f54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><a name=\"hcf54d8c90-aea2-46b0-8f7a-8683db78344e\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitionerrole.html\">US Core PractitionerRole Profile</a></p></div><p><b>practitioner</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000</a></p><p><b>organization</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000</a></p><p><b>code</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction PCP}, {http://nucc.org/provider-taxonomy 261QP2300X}\">primary care physician</span></p><p><b>specialty</b>: <span title=\"Codes:{http://nucc.org/provider-taxonomy 208D00000X}\">General Practice Physician</span></p><p><b>telecom</b>: ph: (+1) 555-555-5555, <a href=\"mailto:ronald.bone@holyhealthcare.org\">ronald.bone@holyhealthcare.org</a></p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:practitioner [
      fhir:link <http://hl7.org/fhir/us/sotus/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> ;
      fhir:reference [ fhir:v "Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1" ]
   ] ; # 
+  fhir:organization [
+     fhir:link <http://hl7.org/fhir/us/sotus/Organization/70a756e3-20b3-4637-8601-a222983e295a> ;
+     fhir:reference [ fhir:v "Organization/70a756e3-20b3-4637-8601-a222983e295a" ]
+  ] ; # 
   fhir:code ( [
      fhir:coding ( [
-       a sct:158965000 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "158965000" ] ;
-       fhir:display [ fhir:v "Doctor" ]
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "PCP" ] ;
+       fhir:display [ fhir:v "primary care physician" ]
+     ] [
+       fhir:system [ fhir:v "http://nucc.org/provider-taxonomy"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "261QP2300X" ] ;
+       fhir:display [ fhir:v "Primary Care Clinic/Center" ]
      ] )
-  ] ) . # 
-
-<http://hl7.org/fhir/us/sotus/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> a fhir:us .
-
-<https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> a fhir:Practitioner ;
-  fhir:id [ fhir:v "19c24876-ccf8-45e7-8b66-462317e970f1"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1</b></p><a name=\"19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><a name=\"hc19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><p><b>name</b>: Dr Richard Kildare Kildare </p><p><b>telecom</b>: ph: tel:+6478539191(Work)</p><p><b>address</b>: 12 Thomas Rd Huntingdon Hamilton 3211 NZ (work)</p></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:name ( [
-     fhir:use [ fhir:v "usual" ] ;
-     fhir:family [ fhir:v "Kildare" ] ;
-     fhir:given ( [ fhir:v "Dr" ] [ fhir:v "Richard" ] [ fhir:v "Kildare" ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://nucc.org/provider-taxonomy"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "208D00000X" ] ;
+       fhir:display [ fhir:v "General Practice Physician" ]
+     ] )
   ] ) ; # 
   fhir:telecom ( [
      fhir:system [ fhir:v "phone" ] ;
-     fhir:value [ fhir:v "tel:+6478539191" ] ;
-     fhir:use [ fhir:v "work" ]
+     fhir:value [ fhir:v "(+1) 555-555-5555" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "ronald.bone@holyhealthcare.org" ]
+  ] ) . # 
+
+<https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1> a fhir:Practitioner ;
+  fhir:id [ fhir:v "19c24876-ccf8-45e7-8b66-462317e970f1"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1</b></p><a name=\"19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><a name=\"hc19c24876-ccf8-45e7-8b66-462317e970f1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitioner.html\">US Core Practitioner Profileversion: null8.0.0)</a></p></div><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/5.5.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">United States National Provider Identifier</a>/9941339100, <code>http://www.acme.org/practitioners</code>/25456</p><p><b>name</b>: Ronald Bone </p><p><b>address</b>: 1003 HEALTHCARE DR AMHERST MA 01002 US (work)</p></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://hl7.org/fhir/sid/us-npi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "9941339100" ]
+  ] [
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-jurisdiction"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:CodeableConcept ;
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://www.usps.com/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "MA" ]
+         ] ) ;
+         fhir:text [ fhir:v "Massachusetts" ]
+       ]
+     ] ) ;
+     fhir:system [ fhir:v "http://www.acme.org/practitioners"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "25456" ]
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Bone" ] ;
+     fhir:given ( [ fhir:v "Ronald" ] ) ;
+     fhir:prefix ( [ fhir:v "Dr" ] )
   ] ) ; # 
   fhir:address ( [
      fhir:use [ fhir:v "work" ] ;
-     fhir:type [ fhir:v "physical" ] ;
-     fhir:line ( [ fhir:v "12 Thomas Rd" ] [ fhir:v "Huntingdon" ] ) ;
-     fhir:city [ fhir:v "Hamilton" ] ;
-     fhir:postalCode [ fhir:v "3211" ] ;
-     fhir:country [ fhir:v "NZ" ]
+     fhir:line ( [ fhir:v "1003 HEALTHCARE DR" ] ) ;
+     fhir:city [ fhir:v "AMHERST" ] ;
+     fhir:state [ fhir:v "MA" ] ;
+     fhir:postalCode [ fhir:v "01002" ] ;
+     fhir:country [ fhir:v "US" ]
   ] ) . # 
 
-<https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a> a fhir:Organization ;
+<https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a> a fhir:Organization ;
   fhir:id [ fhir:v "70a756e3-20b3-4637-8601-a222983e295a"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0>
+     ] )
+  ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_70a756e3-20b3-4637-8601-a222983e295a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a</b></p><a name=\"70a756e3-20b3-4637-8601-a222983e295a\"> </a><a name=\"hc70a756e3-20b3-4637-8601-a222983e295a\"> </a><p><b>identifier</b>: <code>https://standards.digital.health.nz/ns/psychotherapists-board-id</code>/F2N000-J</p><p><b>name</b>: NorthCare Pukete Road</p></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Organization_70a756e3-20b3-4637-8601-a222983e295a\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a</b></p><a name=\"70a756e3-20b3-4637-8601-a222983e295a\"> </a><a name=\"hc70a756e3-20b3-4637-8601-a222983e295a\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-organization.html\">US Core Organization Profileversion: null8.0.0)</a></p></div><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/5.5.0/NamingSystem-npi.html\" title=\"National Provider Identifier\">United States National Provider Identifier</a>/1234567893</p><p><b>active</b>: true</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/organization-type prov}\">Provider</span></p><p><b>name</b>: Holy Healthcare</p><p><b>telecom</b>: ph: (+1) 555-555-5555, <a href=\"mailto:hq@holyhealthcare.org\">hq@holyhealthcare.org</a></p><p><b>address</b>: 100 MANAGING ORGANIZATION AVE Amherst MA 01002 US </p></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "https://standards.digital.health.nz/ns/psychotherapists-board-id"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "F2N000-J" ]
+     fhir:system [ fhir:v "http://hl7.org/fhir/sid/us-npi"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "1234567893" ]
   ] ) ; # 
-  fhir:name [ fhir:v "NorthCare Pukete Road"] . # 
-
-<https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772> a fhir:Immunization ;
-  fhir:id [ fhir:v "4ab062b3-8843-4b98-af62-3d6d178a3772"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_4ab062b3-8843-4b98-af62-3d6d178a3772\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization 4ab062b3-8843-4b98-af62-3d6d178a3772</b></p><a name=\"4ab062b3-8843-4b98-af62-3d6d178a3772\"> </a><a name=\"hc4ab062b3-8843-4b98-af62-3d6d178a3772\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/cvx 141}\">Influenza, seasonal, injectable</span></p><p><b>patient</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Patient_AAA1234\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>occurrence</b>: 2020-07-03</p><p><b>lotNumber</b>: B52b</p><p><b>expirationDate</b>: 2020-07-03</p><p><b>site</b>: <span title=\"Codes:{http://snomed.info/sct 72098002}\">Entire left upper arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Series</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>45y (Eligible condition (Influenza))</td><td>2</td></tr></table></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:status [ fhir:v "completed"] ; # 
-  fhir:vaccineCode [
+  fhir:active [ fhir:v true] ; # 
+  fhir:type ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/sid/cvx"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "141" ] ;
-       fhir:display [ fhir:v "Influenza, seasonal, injectable" ]
-     ] )
-  ] ; # 
-  fhir:patient [
-     fhir:link <http://hl7.org/fhir/us/sotus/Patient/AAA1234> ;
-     fhir:reference [ fhir:v "Patient/AAA1234" ]
-  ] ; # 
-  fhir:occurrence [
-     a fhir:dateTime ;
-     fhir:v "2020-07-03"^^xsd:date
-  ] ; # 
-  fhir:lotNumber [ fhir:v "B52b"] ; # 
-  fhir:expirationDate [ fhir:v "2020-07-03"^^xsd:date] ; # 
-  fhir:site [
-     fhir:coding ( [
-       a sct:72098002 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "72098002" ] ;
-       fhir:display [ fhir:v "Entire left upper arm" ]
-     ] )
-  ] ; # 
-  fhir:route [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "IM" ] ;
-       fhir:display [ fhir:v "Injection, intramuscular" ]
-     ] )
-  ] ; # 
-  fhir:performer ( [
-     fhir:actor [
-       fhir:link <http://hl7.org/fhir/us/sotus/Organization/70a756e3-20b3-4637-8601-a222983e295a> ;
-       fhir:reference [ fhir:v "Organization/70a756e3-20b3-4637-8601-a222983e295a" ]
-     ]
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/organization-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "prov" ]
+     ] ) ;
+     fhir:text [ fhir:v "Provider" ]
   ] ) ; # 
-  fhir:protocolApplied ( [
-     fhir:series [ fhir:v "45y (Eligible condition (Influenza))" ] ;
-     fhir:doseNumber [
-       a fhir:positiveInt ;
-       fhir:v "2"^^xsd:positiveInteger
-     ]
-  ] ) . # 
-
-<https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2> a fhir:Immunization ;
-  fhir:id [ fhir:v "bd6c6537-6c5a-4fa8-8d26-2b49377425a2"] ; # 
-  fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_bd6c6537-6c5a-4fa8-8d26-2b49377425a2\"> </a><p class=\"res-header-id\"><b>Generated Narrative: Immunization bd6c6537-6c5a-4fa8-8d26-2b49377425a2</b></p><a name=\"bd6c6537-6c5a-4fa8-8d26-2b49377425a2\"> </a><a name=\"hcbd6c6537-6c5a-4fa8-8d26-2b49377425a2\"> </a><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Codes:{http://hl7.org/fhir/sid/cvx 141}\">Influenza, seasonal, injectable</span></p><p><b>patient</b>: <a href=\"Bundle-bundle-no-info-required-sections.html#Patient_AAA1234\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></p><p><b>occurrence</b>: 2019-06-03</p><p><b>lotNumber</b>: B52</p><p><b>expirationDate</b>: 2019-08-03</p><p><b>site</b>: <span title=\"Codes:{http://snomed.info/sct 72098002}\">Entire left upper arm</span></p><p><b>route</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\">Injection, intramuscular</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\">Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000</a></td></tr></table><h3>ProtocolApplieds</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Series</b></td><td><b>DoseNumber[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>45y (Eligible condition (Influenza))</td><td>1</td></tr></table></div>"^^rdf:XMLLiteral
-  ] ; # 
-  fhir:status [ fhir:v "completed"] ; # 
-  fhir:vaccineCode [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://hl7.org/fhir/sid/cvx"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "141" ] ;
-       fhir:display [ fhir:v "Influenza, seasonal, injectable" ]
-     ] )
-  ] ; # 
-  fhir:patient [
-     fhir:link <http://hl7.org/fhir/us/sotus/Patient/AAA1234> ;
-     fhir:reference [ fhir:v "Patient/AAA1234" ]
-  ] ; # 
-  fhir:occurrence [
-     a fhir:dateTime ;
-     fhir:v "2019-06-03"^^xsd:date
-  ] ; # 
-  fhir:lotNumber [ fhir:v "B52"] ; # 
-  fhir:expirationDate [ fhir:v "2019-08-03"^^xsd:date] ; # 
-  fhir:site [
-     fhir:coding ( [
-       a sct:72098002 ;
-       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "72098002" ] ;
-       fhir:display [ fhir:v "Entire left upper arm" ]
-     ] )
-  ] ; # 
-  fhir:route [
-     fhir:coding ( [
-       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "IM" ] ;
-       fhir:display [ fhir:v "Injection, intramuscular" ]
-     ] )
-  ] ; # 
-  fhir:performer ( [
-     fhir:actor [
-       fhir:link <http://hl7.org/fhir/us/sotus/Organization/70a756e3-20b3-4637-8601-a222983e295a> ;
-       fhir:reference [ fhir:v "Organization/70a756e3-20b3-4637-8601-a222983e295a" ]
-     ]
+  fhir:name [ fhir:v "Holy Healthcare"] ; # 
+  fhir:telecom ( [
+     fhir:system [ fhir:v "phone" ] ;
+     fhir:value [ fhir:v "(+1) 555-555-5555" ]
+  ] [
+     fhir:system [ fhir:v "email" ] ;
+     fhir:value [ fhir:v "hq@holyhealthcare.org" ]
   ] ) ; # 
-  fhir:protocolApplied ( [
-     fhir:series [ fhir:v "45y (Eligible condition (Influenza))" ] ;
-     fhir:doseNumber [
-       a fhir:positiveInt ;
-       fhir:v "1"^^xsd:positiveInteger
-     ]
+  fhir:address ( [
+     fhir:line ( [ fhir:v "100 MANAGING ORGANIZATION AVE" ] ) ;
+     fhir:city [ fhir:v "Amherst" ] ;
+     fhir:state [ fhir:v "MA" ] ;
+     fhir:postalCode [ fhir:v "01002" ] ;
+     fhir:country [ fhir:v "US" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

@@ -1,298 +1,259 @@
 {
-  "date" : "Thu, 28 Aug, 2025 11:12:07 -0400",
+  "date" : "Thu, 28 Aug, 2025 21:05:19 -0400",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [
     {
       "name" : "\\fsh-generated\\resources\\ImplementationGuide-hl7.fhir.us.sotus.json",
-      "size" : 4356,
+      "size" : 5056,
       "processes" : [
         {
           "activity" : "load",
-          "start" : 75,
-          "length" : 26
+          "start" : 231,
+          "length" : 14
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 80,
-          "length" : 128
+          "start" : 232,
+          "length" : 16
         },
         {
           "activity" : "generateNarratives",
-          "start" : 80,
-          "length" : 487
+          "start" : 232,
+          "length" : 82
         },
         {
           "activity" : "validate",
-          "start" : 139,
-          "length" : 10648
-        },
-        {
-          "activity" : "scanForUsageStats",
-          "start" : 154,
-          "length" : 1
-        },
-        {
-          "activity" : "validate",
-          "start" : 154,
-          "length" : 1
+          "start" : 249,
+          "length" : 6058
         },
         {
           "activity" : "generate1",
-          "start" : 156,
-          "length" : 359
+          "start" : 259,
+          "length" : 110
         },
         {
           "activity" : "generate2",
-          "start" : 171,
-          "length" : 166
+          "start" : 273,
+          "length" : 115
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 320,
-          "length" : 4
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 361,
-          "length" : 4
+          "start" : 403,
+          "length" : 1
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/Bundle-bundle-no-info-required-sections.json",
-      "size" : 15716,
+      "size" : 19581,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 74,
-          "length" : 183
+          "start" : 230,
+          "length" : 52
         },
         {
           "activity" : "load",
-          "start" : 74,
-          "length" : 230
-        },
-        {
-          "activity" : "load",
-          "start" : 74,
-          "length" : 1
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 80,
-          "length" : 2
+          "start" : 230,
+          "length" : 43
         },
         {
           "activity" : "checkR4R4B",
-          "start" : 80,
-          "length" : 8
+          "start" : 232,
+          "length" : 2
         },
         {
           "activity" : "generateNarratives",
-          "start" : 80,
-          "length" : 3246
+          "start" : 232,
+          "length" : 998
         },
         {
           "activity" : "validate",
-          "start" : 154,
-          "length" : 1433
+          "start" : 256,
+          "length" : 2231
         },
         {
           "activity" : "generate1",
-          "start" : 156,
-          "length" : 253
+          "start" : 259,
+          "length" : 95
         },
         {
           "activity" : "generate2",
-          "start" : 172,
-          "length" : 175
-        },
-        {
-          "activity" : "scanExamplesForR5",
-          "start" : 361,
-          "length" : 1
+          "start" : 273,
+          "length" : 123
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-Bundle-us-sotus.json",
-      "size" : 22113,
+      "size" : 22117,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 74,
-          "length" : 176
+          "start" : 230,
+          "length" : 41
         },
         {
           "activity" : "load",
-          "start" : 74,
-          "length" : 62
+          "start" : 231,
+          "length" : 20
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 75,
-          "length" : 4103
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 80,
-          "length" : 1
-        },
-        {
-          "activity" : "loadDepInfo",
-          "start" : 80,
-          "length" : 1
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 80,
-          "length" : 2
+          "start" : 231,
+          "length" : 813
         },
         {
           "activity" : "generateNarratives",
-          "start" : 84,
-          "length" : 777
+          "start" : 233,
+          "length" : 338
         },
         {
           "activity" : "validate",
-          "start" : 85,
-          "length" : 16179
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 150,
-          "length" : 7
+          "start" : 234,
+          "length" : 4916
         },
         {
           "activity" : "checkConformanceResources2",
-          "start" : 150,
-          "length" : 1380
+          "start" : 255,
+          "length" : 604
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 154,
-          "length" : 23
+          "start" : 256,
+          "length" : 6
         },
         {
           "activity" : "generate1",
-          "start" : 156,
-          "length" : 6816
+          "start" : 259,
+          "length" : 5112
         },
         {
           "activity" : "generate2",
-          "start" : 172,
-          "length" : 6553
+          "start" : 273,
+          "length" : 8636
         },
         {
           "activity" : "generate2",
-          "start" : 182,
-          "length" : 3831
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 198,
-          "length" : 1
+          "start" : 287,
+          "length" : 5891
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 320,
-          "length" : 162
-        },
-        {
-          "activity" : "scanProfilesForR5",
-          "start" : 361,
-          "length" : 1
+          "start" : 403,
+          "length" : 61
         },
         {
           "activity" : "scanExamplesForR5",
-          "start" : 361,
-          "length" : 29
+          "start" : 427,
+          "length" : 14
         }
       ]
     },
     {
       "name" : "fsh-generated/resources/StructureDefinition-Composition-us-sotus.json",
-      "size" : 119145,
+      "size" : 125785,
       "processes" : [
         {
           "activity" : "loadResources",
-          "start" : 74,
-          "length" : 123
+          "start" : 230,
+          "length" : 12
         },
         {
           "activity" : "load",
-          "start" : 74,
-          "length" : 135
+          "start" : 231,
+          "length" : 33
         },
         {
           "activity" : "generateSnapshots",
-          "start" : 79,
-          "length" : 304
-        },
-        {
-          "activity" : "load-configure",
-          "start" : 80,
-          "length" : 1
-        },
-        {
-          "activity" : "checkR4R4B",
-          "start" : 80,
-          "length" : 3
+          "start" : 231,
+          "length" : 85
         },
         {
           "activity" : "generateNarratives",
-          "start" : 85,
-          "length" : 840
+          "start" : 234,
+          "length" : 330
         },
         {
           "activity" : "validate",
-          "start" : 102,
-          "length" : 37650
-        },
-        {
-          "activity" : "checkConformanceResources",
-          "start" : 150,
-          "length" : 3
+          "start" : 239,
+          "length" : 9440
         },
         {
           "activity" : "scanForUsageStats",
-          "start" : 154,
-          "length" : 10
+          "start" : 256,
+          "length" : 4
         },
         {
           "activity" : "generate1",
-          "start" : 163,
-          "length" : 5563
+          "start" : 264,
+          "length" : 4580
         },
         {
           "activity" : "generate2",
-          "start" : 178,
-          "length" : 3600
+          "start" : 282,
+          "length" : 4975
         },
         {
           "activity" : "generate2",
-          "start" : 186,
-          "length" : 516
-        },
-        {
-          "activity" : "makeDependencies",
-          "start" : 198,
-          "length" : 1
+          "start" : 293,
+          "length" : 874
         },
         {
           "activity" : "generateValidationPack",
-          "start" : 320,
-          "length" : 82
+          "start" : 404,
+          "length" : 47
+        }
+      ]
+    },
+    {
+      "name" : "fsh-generated/resources/StructureDefinition-DeviceUseStatement-us-sotus.json",
+      "size" : 9115,
+      "processes" : [
+        {
+          "activity" : "loadResources",
+          "start" : 230,
+          "length" : 11
         },
         {
-          "activity" : "scanProfilesForR5",
-          "start" : 361,
-          "length" : 1
+          "activity" : "load",
+          "start" : 231,
+          "length" : 23
         },
         {
-          "activity" : "scanExamplesForR5",
-          "start" : 361,
-          "length" : 17
+          "activity" : "generateSnapshots",
+          "start" : 232,
+          "length" : 48
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 234,
+          "length" : 46
+        },
+        {
+          "activity" : "validate",
+          "start" : 248,
+          "length" : 680
+        },
+        {
+          "activity" : "generate1",
+          "start" : 269,
+          "length" : 326
+        },
+        {
+          "activity" : "generate2",
+          "start" : 287,
+          "length" : 706
+        },
+        {
+          "activity" : "generate2",
+          "start" : 294,
+          "length" : 92
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 404,
+          "length" : 7
         }
       ]
     }

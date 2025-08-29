@@ -1,6 +1,20 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/ValueSet/body-site",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTBodyStructures",
+      "title" : "SNOMED CT Body Structures",
+      "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
+      "uses" : {
+      },
+      "StructureDefinition-DeviceUseStatement-us-sotus.html" : "DeviceUseStatement (SOTUS)"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/bundle-type",
       "version" : "4.0.1",
       "status" : "active",
@@ -26,7 +40,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
@@ -40,7 +54,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.238"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -54,7 +68,21 @@
       "sources" : ["2.16.840.1.113883.4.642.3.241"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/device-statement-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "DeviceUseStatementStatus",
+      "title" : "DeviceUseStatementStatus",
+      "description" : "A coded concept indicating the current status of the Device Usage.",
+      "systems" : ["http://hl7.org/fhir/device-statement-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.214"],
+      "sources" : ["2.16.840.1.113883.4.642.3.214"],
+      "uses" : {
+      },
+      "StructureDefinition-DeviceUseStatement-us-sotus.html" : "DeviceUseStatement (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
@@ -68,7 +96,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.237"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/doc-typecodes",
@@ -82,7 +110,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.240"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
@@ -96,7 +124,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
@@ -110,7 +138,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.244"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/http-verb",
@@ -138,8 +166,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-Bundle-us-sotus.html" : "Bundle (SOTUS)",
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)",
+      "StructureDefinition-DeviceUseStatement-us-sotus.html" : "DeviceUseStatement (SOTUS)",
+      "StructureDefinition-Bundle-us-sotus.html" : "Bundle (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -153,7 +182,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.322"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-mode",
@@ -167,7 +196,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.318"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/list-order",
@@ -181,7 +210,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.324"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -195,7 +224,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)",
+      "StructureDefinition-DeviceUseStatement-us-sotus.html" : "DeviceUseStatement (SOTUS)"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/search-entry-mode",
@@ -229,7 +259,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
@@ -241,7 +271,7 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
@@ -255,7 +285,7 @@
       "sources" : ["2.16.840.1.113883.1.11.10228"],
       "uses" : {
       },
-      "StructureDefinition-Composition-us-sotus.html" : "Composition (IPS)"
+      "StructureDefinition-Composition-us-sotus.html" : "Composition (SOTUS)"
     }
   ]
 }

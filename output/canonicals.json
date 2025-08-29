@@ -19,5 +19,12 @@
     "url" : "http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus",
     "version" : "0.0.1",
     "name" : "CompositionUsSotus"
+  },
+  {
+    "id" : "DeviceUseStatement-us-sotus",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/us/sotus/StructureDefinition/DeviceUseStatement-us-sotus",
+    "version" : "0.0.1",
+    "name" : "DeviceUseStatementUsSotus"
   }
 ]

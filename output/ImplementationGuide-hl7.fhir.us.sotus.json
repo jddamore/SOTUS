@@ -20,12 +20,12 @@
   "url" : "http://hl7.org/fhir/us/sotus/ImplementationGuide/hl7.fhir.us.sotus",
   "version" : "0.0.1",
   "name" : "USSOTUS",
-  "title" : "US Summary of the United States",
+  "title" : "Summary of the United States Implementation Guide",
   "status" : "active",
-  "date" : "2025-08-28T11:10:47-04:00",
-  "publisher" : "HL7 International / Structured Douments Work Group",
+  "date" : "2025-08-28T21:01:27-04:00",
+  "publisher" : "HL7 International / Structured Documents",
   "contact" : [{
-    "name" : "HL7 International / Structured Douments Work Group",
+    "name" : "HL7 International / Structured Documents",
     "telecom" : [{
       "system" : "url",
       "value" : "http://www.hl7.org/Special/committees/structure"
@@ -655,8 +655,20 @@
       "reference" : {
         "reference" : "StructureDefinition/Composition-us-sotus"
       },
-      "name" : "Composition (IPS)",
+      "name" : "Composition (SOTUS)",
       "description" : "Clinical document used to represent the SOTUS.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/DeviceUseStatement-us-sotus"
+      },
+      "name" : "DeviceUseStatement (SOTUS)",
+      "description" : "This profile represents the constraints applied to the DeviceUseStatement resource by the Summary of the United States Implementation Guide (SOTUS), based on FHIR R4. A statement about a device used by or implanted on the patient is described in the patient summary as an instance of a DeviceUseStatement resource constrained by this profile.",
       "exampleBoolean" : false
     }],
     "page" : {
@@ -682,19 +694,6 @@
         }],
         "nameUrl" : "index.html",
         "title" : "Home",
-        "generation" : "markdown"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-          "valueCode" : "informative"
-        },
-        {
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "actors.html"
-        }],
-        "nameUrl" : "actors.html",
-        "title" : "Actors",
         "generation" : "markdown"
       },
       {
@@ -756,6 +755,19 @@
         },
         {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "guidance.html"
+        }],
+        "nameUrl" : "guidance.html",
+        "title" : "Guidance",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
           "valueUrl" : "IG-analysis.html"
         }],
         "nameUrl" : "IG-analysis.html",
@@ -786,6 +798,19 @@
         }],
         "nameUrl" : "Structure-of-the-SOTUS.html",
         "title" : "Structure of the SOTUS",
+        "generation" : "markdown"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+          "valueCode" : "informative"
+        },
+        {
+          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+          "valueUrl" : "use-case.html"
+        }],
+        "nameUrl" : "use-case.html",
+        "title" : "Use Case",
         "generation" : "markdown"
       }]
     },

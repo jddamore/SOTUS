@@ -4,7 +4,7 @@ FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.us.sotus
 name: USSOTUS
-title: US Summary of the United States
+title: Summary of the United States Implementation Guide
 status: active
 extension:
   - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-wg
@@ -18,7 +18,7 @@ version: 0.0.1
 copyrightYear: 2025+
 releaseLabel: STU 1
 publisher:
-  name: HL7 International / Structured Douments
+  name: HL7 International / Structured Documents
   url: http://www.hl7.org/Special/committees/structure
 jurisdiction: 'urn:iso:std:iso:3166#US'
 dependencies:
@@ -34,10 +34,13 @@ dependencies:
 menu:
   Home: index.html
   Table of Contents: toc.html
+  Guidance: guidance.html
+  Use Case: use-case.html
   The "SOTUS": Structure-of-the-SOTUS.html
   FHIR Artifacts:
     SOTUS Composition: StructureDefinition-Composition-us-sotus.html
     SOTUS Library (Profiles): profiles.html
+    Examples: examples.html
   Support:
     About: IG-analysis.html
     Downloads: downloads.html

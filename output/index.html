@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Home - US Summary of the United States v0.0.1</title>
+    <title>Home - Summary of the United States Implementation Guide v0.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -64,7 +64,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">US Summary of the United States</span>
+          <p><span style="font-size:12pt;font-weight:bold">Summary of the United States Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.0.1 - STU 1
 
@@ -104,6 +104,12 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="use-case.html">Use Case</a>
+  </li>
+  <li>
     <a href="Structure-of-the-SOTUS.html">The &quot;SOTUS&quot;</a>
   </li>
   <li class="dropdown">
@@ -116,6 +122,9 @@
       </li>
       <li>
         <a href="profiles.html">SOTUS Library (Profiles)</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
       </li>
     </ul>
   </li>
@@ -170,7 +179,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">US Summary of the United States - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Summary of the United States Implementation Guide - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Home</h2>
   
 
@@ -243,7 +252,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </ul>
 
 </div>
-<p>…Intro to the SOTUS…</p>
+<p>The Summary of the United States (SOTUS) is a medical summary to to convey essential information during a care transition. This supports both domestic and international information exchange for information based on US medical records. This specification demonstrates how to package US Core Resources into a Composition and Bundle for clincal document exchange using FHIR to succeed previous CDA based formats.</p>
+
+<p>…Additional intro to the SOTUS…</p>
 
 <p><strong>Figure 1: The SOTUS</strong></p>
 <p><img src="US-Comp.png" class="figure-img img-responsive img-rounded center-block" alt="Figure 1: The SOTUS" style="width:80%" /></p>
@@ -251,7 +262,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h3 id="purpose">Purpose</h3>
 
-<p>Implement the expectations for clinical documents in the United States based on previous work from US C-CDA documents and align to US Core conformant resources</p>
+<p>Implement the expectations for clinical documents in the United States based on earlier <a href="https://hl7.org/cda/us/ccda/">C-CDA</a> guidance and aligning US Core conformant resources in a format complaint with the <a href="https://hl7.org/fhir/uv/ips/">International Patient Summary</a>. The SOTUS is a successor to the C-CDA <a href="https://hl7.org/cda/us/ccda/StructureDefinition-ContinuityofCareDocumentCCD.html">Continuity of Care Document</a></p>
 
 <h3 id="project-background">Project Background</h3>
 
@@ -261,10 +272,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Project scope…</p>
 
-<p>Edit the following figure for required C-CDA sections</p>
+<p>Consider editing the following figure if additional C-CDA sections added</p>
 
-<p><strong>Figure 2: The IPS composition</strong></p>
-<p><img src="IPS_composition.png" class="figure-img img-responsive img-rounded center-block" alt="Figure 2: The IPS composition" style="width:70%" /></p>
+<p><strong>Figure 2: The SOTUS composition</strong></p>
+<p><img src="SOTUS_composition.png" class="figure-img img-responsive img-rounded center-block" alt="Figure 2: The SOTUS composition" style="width:70%" /></p>
 <div style="clear:both;"></div>
 
 <h3 id="authors-and-contributors">Authors and Contributors</h3>
@@ -319,7 +330,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Douments Work Group</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 11:12-0400">2025-08-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Documents</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 21:05-0400">2025-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,12 +1,12 @@
 The SOTUS is composed of the following sections described below.
 
-NEED TO EDIT IMAGE FOR C-CDA CCD Alignment
+{% include img.html img="SOTUS_composition.png" caption="Figure 2: The SOTUS composition" width="70%" %}
 
-{% include img.html img="IPS_composition.png" caption="Figure 2: The IPS composition" width="70%" %}
-
-### SHALL (Required) Sections Description
+### Required (SHALL) Sections Description
 
 #### Problem List
+
+Add a description for each section....
 
 #### Allergies and Intolerances
 
@@ -18,7 +18,11 @@ NEED TO EDIT IMAGE FOR C-CDA CCD Alignment
 
 #### Vital Signs
 
-### SHOULD Sections
+### Recommended (SHOULD) Sections
+
+#### Immunizations
+
+#### Medical Equipment
 
 #### Plan of Treament
 
@@ -30,19 +34,19 @@ NEED TO EDIT IMAGE FOR C-CDA CCD Alignment
 
 #### Alerts
 
-#### Encounters
-
-#### Family History
-
 #### Functional Status
 
 #### History of Past Problems
 
 #### History of Pregnancy (status and history summary)
 
-#### Immunizations
+#### Patient Story
 
-#### Medical Equipment
+### Not Yet Included (UNDER CONSIDERATION)
+
+#### Encounters
+
+#### Family History
 
 #### Mental Status
 
@@ -50,10 +54,12 @@ NEED TO EDIT IMAGE FOR C-CDA CCD Alignment
 
 #### Payers
 
-#### Patient Story
 
 ### List of Profiles
 
 The profiles that have been defined for this implementation guide are listed <a href="profiles.html">here</a>.
+
+The profiles that have been defined for the US Core Implementation Guide are listed <a href="https://hl7.org/fhir/us/core/profiles-and-extensions.html#profiles">here</a>.
+
 
 ---

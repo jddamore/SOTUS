@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Bundle - No Info Required section - TTL Representation - US Summary of the United States v0.0.1</title>
+    <title>Bundle - No Info Required section - TTL Representation - Summary of the United States Implementation Guide v0.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +45,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.3"}
-    h3,h4,h5,h6{--heading-prefix:"10.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.4"}
+    h3,h4,h5,h6{--heading-prefix:"11.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -66,7 +66,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">US Summary of the United States</span>
+          <p><span style="font-size:12pt;font-weight:bold">Summary of the United States Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.0.1 - STU 1
 
@@ -106,6 +106,12 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="use-case.html">Use Case</a>
+  </li>
+  <li>
     <a href="Structure-of-the-SOTUS.html">The &quot;SOTUS&quot;</a>
   </li>
   <li class="dropdown">
@@ -118,6 +124,9 @@
       </li>
       <li>
         <a href="profiles.html">SOTUS Library (Profiles)</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
       </li>
     </ul>
   </li>
@@ -165,7 +174,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">US Summary of the United States - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Summary of the United States Implementation Guide - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -237,51 +246,45 @@
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;bundle-no-info-required-sections&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips&gt;     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus&gt;     ] )
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-NZ&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-US&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.724.4.8.10.200.10&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;59f51f0b-2005-485c-858e-3d3ae9657287&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;document&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2022-01-08T20:42:11.0607701+00:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">fhir:timestamp</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2025-01-08T20:42:11.0607701+00:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">fhir:entry</a> ( [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/composition.html#Composition">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/composition.html#Composition">fhir:resource</a> &lt;https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&gt; )
   ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Patient/AAA1234&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Patient/AAA1234&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://example.fhir.org/fhir/Patient/AAA1234&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient">fhir:resource</a> &lt;https://example.fhir.org/fhir/Patient/AAA1234&gt; )
   ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/organization.html#Organization">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">fhir:resource</a> &lt;https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&gt; )
   ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">fhir:resource</a> &lt;https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&gt; )
   ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&gt; )
-  ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/organization.html#Organization">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&gt; )
-  ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/immunization.html#Immunization">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&gt; )
-  ] [
-<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;^^xsd:anyURI ] ;
-    ( <a href="http://hl7.org/fhir/R4/immunization.html#Immunization">fhir:resource</a> &lt;https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&gt; )
+<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fhir:fullUrl</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;^^xsd:anyURI ] ;
+    ( <a href="http://hl7.org/fhir/R4/organization.html#Organization">fhir:resource</a> &lt;https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&gt; )
   ] ) . # 
 
-&lt;https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&gt; <a href="http://hl7.org/fhir/R4/composition.html">a</a> fhir:Composition ;
+&lt;https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&gt; <a href="http://hl7.org/fhir/R4/composition.html">a</a> fhir:Composition ;
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;514af4c1-194d-48b4-8afe-7be09d3f895a&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">fhir:meta</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;1&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;1&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus&gt;     ] )
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-NZ&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/composition.html#Composition.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-US&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;en-NZ\&quot; lang=\&quot;en-NZ\&quot;&gt;&lt;a name=\&quot;Composition_514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Language: en-NZ&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 60591-5}\&quot;&gt;Patient summary Document&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: International Patient Summary&lt;/p&gt;&lt;p&gt;&lt;b&gt;confidentiality&lt;/b&gt;: normal&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Party&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Professional&lt;/td&gt;&lt;td&gt;2021-05-03&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;custodian&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;RelatesTos&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Transforms&lt;/td&gt;&lt;td&gt;&lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Events&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}\&quot;&gt;care provision&lt;/span&gt;&lt;/td&gt;&lt;td&gt;?? --&amp;gt; 2021-05-03&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; xml:lang=\&quot;en-US\&quot; lang=\&quot;en-US\&quot;&gt;&lt;a name=\&quot;Composition_514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc514af4c1-194d-48b4-8afe-7be09d3f895a\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Language: en-US&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-Composition-us-sotus.html\&quot;&gt;Composition (SOTUS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://loinc.org 60591-5}\&quot;&gt;Patient summary Document&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Patient Summary as of 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;confidentiality&lt;/b&gt;: normal&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Party&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Professional&lt;/td&gt;&lt;td&gt;2021-05-03&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;custodian&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;RelatesTos&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Transforms&lt;/td&gt;&lt;td&gt;&lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Events&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}\&quot;&gt;care provision&lt;/span&gt;&lt;/td&gt;&lt;td&gt;?? --&amp;gt; 2021-05-03&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.2.18.7.2&quot;^^xsd:anyURI ] ;
@@ -300,9 +303,9 @@ a loinc:60591-5 ;
   ] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2021-05-03&quot;^^xsd:date] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.author">fhir:author</a> ( [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot; ]
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;International Patient Summary&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/composition.html#Composition.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient Summary as of 2021-05-03&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.confidentiality">fhir:confidentiality</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;N&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.attester">fhir:attester</a> ( [
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.attester.mode">fhir:mode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;professional&quot; ] ;
@@ -329,23 +332,6 @@ a loinc:60591-5 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">fhir:end</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2021-05-03&quot;^^xsd:date ]     ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/composition.html#Composition.section">fhir:section</a> ( [
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Allergies and Intolerances&quot; ] ;
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:48765-2 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;48765-2&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Allergies and adverse reactions Document&quot; ]       ] )     ] ;
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xml:lang=\&quot;en-NZ\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-NZ\&quot;&gt;There is no information available regarding the subject's allergies.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;unavailable&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
-  ] [
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Problem List&quot; ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
@@ -355,7 +341,24 @@ a loinc:11450-4 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Problem list - Reported&quot; ]       ] )     ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xml:lang=\&quot;en-NZ\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-NZ\&quot;&gt;There is no information available about the subject's health problems or disabilities.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available about the subject's health problems or disabilities.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;unavailable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Allergies and Intolerances&quot; ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:48765-2 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;48765-2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Allergies and adverse reactions Document&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available regarding the subject's allergies.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
@@ -372,7 +375,7 @@ a loinc:10160-0 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;History of Medication use Narrative&quot; ]       ] )     ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xml:lang=\&quot;en-NZ\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-NZ\&quot;&gt;There is no information available about the subject's medication use or administration.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available about the subject's medication use or administration.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
@@ -380,258 +383,342 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en-NZ\&quot; xmlns=\&quot;http://www.w3.o
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
   ] [
-<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Immunizations&quot; ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Results&quot; ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a loinc:11369-6 ;
+a loinc:30954-2 ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;11369-6&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;History of Immunization Narrative&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;30954-2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Relevant diagnostic tests/laboratory data note&quot; ]       ] )     ] ;
 <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xml:lang=\&quot;en-NZ\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Vaccine&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Seq&lt;/th&gt;&lt;th&gt;Route&lt;/th&gt;&lt;th&gt;Site&lt;/th&gt;&lt;th&gt;Indication&lt;/th&gt;&lt;th&gt;Status&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Influenza&lt;/td&gt;&lt;td&gt;03/07/2020&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Injection, intramuscular&lt;/td&gt;&lt;td&gt;Entire left upper arm&lt;/td&gt;&lt;td&gt;Eligible condition (Influenza)&lt;/td&gt;&lt;td&gt;completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Influenza&lt;/td&gt;&lt;td&gt;03/06/2019&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Injection, intramuscular&lt;/td&gt;&lt;td&gt;Entire left upper arm&lt;/td&gt;&lt;td&gt;Eligible condition (Influenza)&lt;/td&gt;&lt;td&gt;completed&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
-    ( <a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">fhir:entry</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&quot; ]     ] [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot; ]     ] )
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available about the subject's relevant diagnostic tests or laboratory data.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;unavailable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Social History&quot; ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:29762-2 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;29762-2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Social history note&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available about the subject's social history.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;unavailable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Vital Signs&quot; ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">fhir:code</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+a loinc:8716-3 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://loinc.org&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;8716-3&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Vital signs note&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xml:lang=\&quot;en-US\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en-US\&quot;&gt;There is no information available about the subject's vital signs.&lt;/div&gt;&quot;^^rdf:XMLLiteral     ] ;
+<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">fhir:emptyReason</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;unavailable&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Unavailable&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No information available&quot; ]     ]
   ] ) . # 
 
-&lt;https://terminz.azurewebsites.net/fhir/Patient/AAA1234&gt; <a href="http://hl7.org/fhir/R4/patient.html">a</a> fhir:Patient ;
+&lt;https://example.fhir.org/fhir/Patient/AAA1234&gt; <a href="http://hl7.org/fhir/R4/patient.html">a</a> fhir:Patient ;
   <a href="http://hl7.org/fhir/R4/patient.html#Patient.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;AAA1234&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/patient.html#Patient.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_AAA1234\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Patient AAA1234&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;AAA1234\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcAAA1234\&quot;&gt; &lt;/a&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;James Judge  Male, DoB: 1985-04-25 ( https://standards.digital.health.nz/ns/nhi-id#AAA1234)&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Known Marital status of Patient\&quot;&gt;Marital Status:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}\&quot;&gt;Married&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: tel:+6478532279(Home)&lt;/li&gt;&lt;li&gt;Bleak House 3 Worcester Drive Rototuna North Hamilton 3210 NZ (home)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Language spoken\&quot;&gt;Language:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes:{urn:ietf:bcp:47 en-NZ}\&quot;&gt;English (Region=New Zealand)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Nominated Contact: family member\&quot;&gt;family member:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Natural mother mother &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Nominated Contact: unrelated friend\&quot;&gt;unrelated friend:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;Peter Rabbit Rabbit &lt;/li&gt;&lt;li&gt;9 Worcester Drive Rototuna Hamilton 3210 NZ (home)&lt;/li&gt;&lt;li&gt;ph: 07 853 9191(Home)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Patient_AAA1234\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Patient AAA1234&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;AAA1234\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcAAA1234\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-patient.html\&quot;&gt;US Core Patient Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;Amy V. Baxter  (no stated gender), DoB: 1987-02-20 ( Medical Record Number: 1032702 (use: usual, ))&lt;/p&gt;&lt;hr/&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Record is active\&quot;&gt;Active:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Alternate names (see the one above)\&quot;&gt;Alt. Name:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;Amy V. Shaw (Old)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Ways to contact the Patient\&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 555-555-5555(Home)&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;mailto:amy.shaw@example.com\&quot;&gt;amy.shaw@example.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;49 MEADOW ST MOUNDS OK 74047 US (old)&lt;/li&gt;&lt;li&gt;183 MOUNTAIN VIEW ST MOUNDS OK 74048 US &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Language spoken\&quot;&gt;Language:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;span title=\&quot;Codes:{urn:ietf:bcp:47 es}\&quot;&gt;Spanish&lt;/span&gt; (preferred)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;USCDI includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with the USCDI definition of Sex: &amp;quot;Documentation of a specific instance of sex.&amp;quot; It enables systems to share the sex value as it was documented in a particular context.  Systems choosing to record sources of information should use the [Provenance resource](element-level-provenance.html).\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-sex.html\&quot;&gt;US Core Sex Extension&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;a href=\&quot;http://snomed.info/sct/731000124108/id/248152002\&quot;&gt;SNOMED CT 248152002&lt;/a&gt;: Female (finding) (version = http://snomed.info/sct/731000124108 )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.\&quot;&gt;US Core Ethnicity Extension:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2135-2: Hispanic or Latino&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2184-0: Dominican&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2148-5: Mexican&lt;/li&gt;&lt;li&gt;text: Hispanic or Latino&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html#3) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:#xA;#xA; - American Indian or Alaska Native#xA; - Asian#xA; - Black or African American#xA; - Native Hawaiian or Other Pacific Islander#xA; - White.\&quot;&gt;US Core Race Extension:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2106-3: White&lt;/li&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 1002-5: American Indian or Alaska Native&lt;/li&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2028-9: Asian&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 1586-7: Shoshone&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2036-2: Filipino&lt;/li&gt;&lt;li&gt;text: Mixed&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;This Extension profile represents a tribe or band with which a person associates and, optionally, whether they are enrolled.\&quot;&gt;US Core Tribal Affiliation Extension:&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;ul&gt;&lt;li&gt;tribalAffiliation: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS 187}\&quot;&gt;Shoshone&lt;/span&gt;&lt;/li&gt;&lt;li&gt;isEnrolled: false&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;background-color: #f3f5da\&quot; title=\&quot;This extension indicates the individual's need for an interpreter to communicate healthcare information in a language other than the default language of the organization. It has the same meaning as the LOINC [54588-9](https://loinc.org/54588-9) (Interpreter needed)\&quot;&gt;&lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-interpreter-needed.html\&quot;&gt;US Core Interpreter Needed Extension&lt;/a&gt;&lt;/td&gt;&lt;td colspan=\&quot;3\&quot;&gt;&lt;a href=\&quot;http://snomed.info/sct/731000124108/id/373066001\&quot;&gt;SNOMED CT 373066001&lt;/a&gt;: Yes (qualifier value) (version = http://snomed.info/sct/731000124108 )&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://standards.digital.health.nz/ns/nhi-id&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;AAA1234&quot; ]
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">fhir:extension</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;ombCategory&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2106-3&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;White&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;ombCategory&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;1002-5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;American Indian or Alaska Native&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;ombCategory&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2028-9&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Asian&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;detailed&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;1586-7&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Shoshone&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;detailed&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2036-2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Filipino&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;text&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mixed&quot;       ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;^^xsd:anyURI ]
+  ] [
+    ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;ombCategory&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2135-2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hispanic or Latino&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;detailed&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2184-0&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Dominican&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;detailed&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.6.238&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;2148-5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mexican&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;text&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">a</a> fhir:string ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hispanic or Latino&quot;       ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;^^xsd:anyURI ]
+  ] [
+    ( <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;tribalAffiliation&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
+        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;187&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Shoshone&quot; ]       ]     ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;isEnrolled&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">a</a> fhir:boolean ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false       ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation&quot;^^xsd:anyURI ]
+  ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding, sct:248152002 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://snomed.info/sct&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://snomed.info/sct/731000124108&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;248152002&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Female (finding)&quot; ]     ]
+  ] [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding">a</a> fhir:Coding, sct:373066001 ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://snomed.info/sct&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://snomed.info/sct/731000124108&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;373066001&quot; ]     ]
   ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">fhir:type</a> [
+      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MR&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Medical Record Number&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Medical Record Number&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://example.org/patient/identifiers&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1032702&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.active">fhir:active</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
   <a href="http://hl7.org/fhir/R4/patient.html#Patient.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;old&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Shaw&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Amy&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;V.&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">fhir:period</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2016-12-06&quot;^^xsd:date ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">fhir:end</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-07-22&quot;^^xsd:date ]     ]
+  ] [
 <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Judge&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;James&quot; ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Baxter&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Amy&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;V.&quot; ] ) ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.suffix">fhir:suffix</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;PharmD&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">fhir:period</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-07-22&quot;^^xsd:date ]     ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">fhir:telecom</a> ( [
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;phone&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;tel:+6478532279&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;555-555-5555&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;home&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">fhir:gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;male&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;1985-04-25&quot;^^xsd:date] ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.address">fhir:address</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;home&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;physical&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Bleak House&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3 Worcester Drive&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Rototuna North&quot; ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hamilton&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3210&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NZ&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.maritalStatus">fhir:maritalStatus</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;M&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Married&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">fhir:contact</a> ( [
-    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">fhir:relationship</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FAMMEMB&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;family member&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0131&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;N&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Next-of-Kin&quot; ]       ] )     ] ) ;
-<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">fhir:name</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mother&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Natural&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;mother&quot; ] )     ]
   ] [
-    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">fhir:relationship</a> [
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FRND&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;unrelated friend&quot; ]       ] [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0131&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;C&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Emergency Contact&quot; ]       ] )     ] ) ;
-<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">fhir:name</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Rabbit&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Peter&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Rabbit&quot; ] )     ] ;
-    ( <a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.telecom">fhir:telecom</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;phone&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;07 853 9191&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;home&quot; ]     ] ) ;
-<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.address">fhir:address</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;home&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;physical&quot; ] ;
-      ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;9 Worcester Drive&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Rototuna&quot; ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hamilton&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3210&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NZ&quot; ]     ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;amy.shaw@example.com&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">fhir:birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;1987-02-20&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R4/patient.html#Patient.address">fhir:address</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;old&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;49 MEADOW ST&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MOUNDS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;74047&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;US&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">fhir:period</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2016-12-06&quot;^^xsd:date ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">fhir:end</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-07-22&quot;^^xsd:date ]     ]
+  ] [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;183 MOUNTAIN VIEW ST&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MOUNDS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;OK&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;74048&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;US&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">fhir:period</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-07-22&quot;^^xsd:date ]     ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/patient.html#Patient.communication">fhir:communication</a> ( [
 <a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.language">fhir:language</a> [
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:bcp:47&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en-NZ&quot; ]       ] )     ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;es&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Spanish&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.preferred">fhir:preferred</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true ]
   ] ) . # 
 
-&lt;https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&gt; <a href="http://hl7.org/fhir/R4/organization.html">a</a> fhir:Organization ;
-  <a href="http://hl7.org/fhir/R4/organization.html#Organization.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/organization.html#Organization.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;d9b97b04-b606-4f07-baf2-7eb3dcae0a2a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcd9b97b04-b606-4f07-baf2-7eb3dcae0a2a\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://standards.digital.health.nz/ns/hpi-facility-id&lt;/code&gt;/F0K068-E&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Northcare, Thomas Road&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://standards.digital.health.nz/ns/hpi-facility-id&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;F0K068-E&quot; ]
-  ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/organization.html#Organization.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Northcare, Thomas Road&quot;] . # 
-
-&lt;https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&gt; <a href="http://hl7.org/fhir/R4/practitionerrole.html">a</a> fhir:PractitionerRole ;
+&lt;https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&gt; <a href="http://hl7.org/fhir/R4/practitionerrole.html">a</a> fhir:PractitionerRole ;
   <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcf54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 158965000}\&quot;&gt;Doctor&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;f54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcf54d8c90-aea2-46b0-8f7a-8683db78344e\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitionerrole.html\&quot;&gt;US Core PractitionerRole Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;organization&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction PCP}, {http://nucc.org/provider-taxonomy 261QP2300X}\&quot;&gt;primary care physician&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specialty&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://nucc.org/provider-taxonomy 208D00000X}\&quot;&gt;General Practice Physician&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: (+1) 555-555-5555, &lt;a href=\&quot;mailto:ronald.bone@holyhealthcare.org\&quot;&gt;ronald.bone@holyhealthcare.org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.practitioner">fhir:practitioner</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot; ]
   ] ; # 
+  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.organization">fhir:organization</a> [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot; ]
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.code">fhir:code</a> ( [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a sct:158965000 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://snomed.info/sct&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;158965000&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Doctor&quot; ]     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PCP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;primary care physician&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://nucc.org/provider-taxonomy&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;261QP2300X&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Primary Care Clinic/Center&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.specialty">fhir:specialty</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://nucc.org/provider-taxonomy&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;208D00000X&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;General Practice Physician&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.telecom">fhir:telecom</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;phone&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;(+1) 555-555-5555&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;ronald.bone@holyhealthcare.org&quot; ]
   ] ) . # 
 
-&lt;https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&gt; <a href="http://hl7.org/fhir/R4/practitioner.html">a</a> fhir:Practitioner ;
+&lt;https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&gt; <a href="http://hl7.org/fhir/R4/practitioner.html">a</a> fhir:Practitioner ;
   <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;19c24876-ccf8-45e7-8b66-462317e970f1&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Dr Richard Kildare Kildare &lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: tel:+6478539191(Work)&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 12 Thomas Rd Huntingdon Hamilton 3211 NZ (work)&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc19c24876-ccf8-45e7-8b66-462317e970f1\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitioner.html\&quot;&gt;US Core Practitioner Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=\&quot;http://terminology.hl7.org/5.5.0/NamingSystem-npi.html\&quot; title=\&quot;National Provider Identifier\&quot;&gt;United States National Provider Identifier&lt;/a&gt;/9941339100, &lt;code&gt;http://www.acme.org/practitioners&lt;/code&gt;/25456&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Ronald Bone &lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 1003 HEALTHCARE DR AMHERST MA 01002 US (work)&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:name</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;usual&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Kildare&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Dr&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Richard&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Kildare&quot; ] )
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/sid/us-npi&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;9941339100&quot; ]
+  ] [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.extension">fhir:extension</a> [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-jurisdiction&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">a</a> fhir:CodeableConcept ;
+        ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://www.usps.com/&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MA&quot; ]         ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Massachusetts&quot; ]       ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://www.acme.org/practitioners&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;25456&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">fhir:telecom</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;phone&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;tel:+6478539191&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;work&quot; ]
+  <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Bone&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ronald&quot; ] ) ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.prefix">fhir:prefix</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Dr&quot; ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.address">fhir:address</a> ( [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">fhir:use</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;work&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;physical&quot; ] ;
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;12 Thomas Rd&quot; ] [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Huntingdon&quot; ] ) ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hamilton&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3211&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NZ&quot; ]
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1003 HEALTHCARE DR&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;AMHERST&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;01002&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;US&quot; ]
   ] ) . # 
 
-&lt;https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&gt; <a href="http://hl7.org/fhir/R4/organization.html">a</a> fhir:Organization ;
+&lt;https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&gt; <a href="http://hl7.org/fhir/R4/organization.html">a</a> fhir:Organization ;
   <a href="http://hl7.org/fhir/R4/organization.html#Organization.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;70a756e3-20b3-4637-8601-a222983e295a&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">fhir:meta</a> [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0&gt;     ] )
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/organization.html#Organization.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://standards.digital.health.nz/ns/psychotherapists-board-id&lt;/code&gt;/F2N000-J&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: NorthCare Pukete Road&lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;/&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-organization.html\&quot;&gt;US Core Organization Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=\&quot;http://terminology.hl7.org/5.5.0/NamingSystem-npi.html\&quot; title=\&quot;National Provider Identifier\&quot;&gt;United States National Provider Identifier&lt;/a&gt;/1234567893&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/organization-type prov}\&quot;&gt;Provider&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Holy Healthcare&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: (+1) 555-555-5555, &lt;a href=\&quot;mailto:hq@holyhealthcare.org\&quot;&gt;hq@holyhealthcare.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 100 MANAGING ORGANIZATION AVE Amherst MA 01002 US &lt;/p&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://standards.digital.health.nz/ns/psychotherapists-board-id&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;F2N000-J&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/sid/us-npi&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;1234567893&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/organization.html#Organization.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;NorthCare Pukete Road&quot;] . # 
-
-&lt;https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&gt; <a href="http://hl7.org/fhir/R4/immunization.html">a</a> fhir:Immunization ;
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;4ab062b3-8843-4b98-af62-3d6d178a3772&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Immunization_4ab062b3-8843-4b98-af62-3d6d178a3772\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Immunization 4ab062b3-8843-4b98-af62-3d6d178a3772&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;4ab062b3-8843-4b98-af62-3d6d178a3772\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hc4ab062b3-8843-4b98-af62-3d6d178a3772\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.org/fhir/sid/cvx 141}\&quot;&gt;Influenza, seasonal, injectable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Patient_AAA1234\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2020-07-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;lotNumber&lt;/b&gt;: B52b&lt;/p&gt;&lt;p&gt;&lt;b&gt;expirationDate&lt;/b&gt;: 2020-07-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 72098002}\&quot;&gt;Entire left upper arm&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\&quot;&gt;Injection, intramuscular&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;ProtocolApplieds&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Series&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DoseNumber[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;45y (Eligible condition (Influenza))&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;completed&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">fhir:vaccineCode</a> [
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.active">fhir:active</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.type">fhir:type</a> ( [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/sid/cvx&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;141&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Influenza, seasonal, injectable&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">fhir:patient</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/AAA1234&quot; ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.occurrence[x]">fhir:occurrence</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2020-07-03&quot;^^xsd:date
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.lotNumber">fhir:lotNumber</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;B52b&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.expirationDate">fhir:expirationDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;2020-07-03&quot;^^xsd:date] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">fhir:site</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a sct:72098002 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://snomed.info/sct&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;72098002&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Entire left upper arm&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">fhir:route</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;IM&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Injection, intramuscular&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">fhir:performer</a> ( [
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">fhir:actor</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot; ]     ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/organization-type&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;prov&quot; ]     ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Provider&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">fhir:protocolApplied</a> ( [
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.series">fhir:series</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;45y (Eligible condition (Influenza))&quot; ] ;
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.doseNumber[x]">fhir:doseNumber</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">a</a> fhir:positiveInt ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">fhir:v</a> &quot;2&quot;^^xsd:positiveInteger     ]
-  ] ) . # 
-
-&lt;https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&gt; <a href="http://hl7.org/fhir/R4/immunization.html">a</a> fhir:Immunization ;
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">fhir:text</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;a name=\&quot;Immunization_bd6c6537-6c5a-4fa8-8d26-2b49377425a2\&quot;&gt; &lt;/a&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Immunization bd6c6537-6c5a-4fa8-8d26-2b49377425a2&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;bd6c6537-6c5a-4fa8-8d26-2b49377425a2\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcbd6c6537-6c5a-4fa8-8d26-2b49377425a2\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://hl7.org/fhir/sid/cvx 141}\&quot;&gt;Influenza, seasonal, injectable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Patient_AAA1234\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2019-06-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;lotNumber&lt;/b&gt;: B52&lt;/p&gt;&lt;p&gt;&lt;b&gt;expirationDate&lt;/b&gt;: 2019-08-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://snomed.info/sct 72098002}\&quot;&gt;Entire left upper arm&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}\&quot;&gt;Injection, intramuscular&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a\&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;ProtocolApplieds&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Series&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DoseNumber[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;45y (Eligible condition (Influenza))&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;completed&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">fhir:vaccineCode</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/sid/cvx&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;141&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Influenza, seasonal, injectable&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">fhir:patient</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/AAA1234&quot; ]
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.occurrence[x]">fhir:occurrence</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2019-06-03&quot;^^xsd:date
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.lotNumber">fhir:lotNumber</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;B52&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.expirationDate">fhir:expirationDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;2019-08-03&quot;^^xsd:date] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">fhir:site</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-a sct:72098002 ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://snomed.info/sct&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;72098002&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Entire left upper arm&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">fhir:route</a> [
-    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;IM&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Injection, intramuscular&quot; ]     ] )
-  ] ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">fhir:performer</a> ( [
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">fhir:actor</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot; ]     ]
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Holy Healthcare&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">fhir:telecom</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;phone&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;(+1) 555-555-5555&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;hq@holyhealthcare.org&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">fhir:protocolApplied</a> ( [
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.series">fhir:series</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;45y (Eligible condition (Influenza))&quot; ] ;
-<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.doseNumber[x]">fhir:doseNumber</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">a</a> fhir:positiveInt ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">fhir:v</a> &quot;1&quot;^^xsd:positiveInteger     ]
+  <a href="http://hl7.org/fhir/R4/organization.html#Organization.address">fhir:address</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">fhir:line</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;100 MANAGING ORGANIZATION AVE&quot; ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">fhir:city</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Amherst&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">fhir:state</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;MA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">fhir:postalCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;01002&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">fhir:country</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;US&quot; ]
   ] ) . # 
 
 </pre>
@@ -659,7 +746,7 @@ a sct:72098002 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Douments Work Group</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 11:12-0400">2025-08-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Documents</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 21:05-0400">2025-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

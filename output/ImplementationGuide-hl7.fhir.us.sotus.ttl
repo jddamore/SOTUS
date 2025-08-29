@@ -35,12 +35,12 @@
   fhir:url [ fhir:v "http://hl7.org/fhir/us/sotus/ImplementationGuide/hl7.fhir.us.sotus"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1"] ; # 
   fhir:name [ fhir:v "USSOTUS"] ; # 
-  fhir:title [ fhir:v "US Summary of the United States"] ; # 
+  fhir:title [ fhir:v "Summary of the United States Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-08-28T11:10:47-04:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 International / Structured Douments Work Group"] ; # 
+  fhir:date [ fhir:v "2025-08-28T21:01:27-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International / Structured Documents"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "HL7 International / Structured Douments Work Group" ] ;
+     fhir:name [ fhir:v "HL7 International / Structured Documents" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
        fhir:value [ fhir:v "http://www.hl7.org/Special/committees/structure" ]
@@ -902,8 +902,26 @@
          fhir:link <http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus> ;
          fhir:reference [ fhir:v "StructureDefinition/Composition-us-sotus" ]
        ] ;
-       fhir:name [ fhir:v "Composition (IPS)" ] ;
+       fhir:name [ fhir:v "Composition (SOTUS)" ] ;
        fhir:description [ fhir:v "Clinical document used to represent the SOTUS." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/us/sotus/StructureDefinition/DeviceUseStatement-us-sotus> ;
+         fhir:reference [ fhir:v "StructureDefinition/DeviceUseStatement-us-sotus" ]
+       ] ;
+       fhir:name [ fhir:v "DeviceUseStatement (SOTUS)" ] ;
+       fhir:description [ fhir:v "This profile represents the constraints applied to the DeviceUseStatement resource by the Summary of the United States Implementation Guide (SOTUS), based on FHIR R4. A statement about a device used by or implanted on the patient is described in the patient summary as an instance of a DeviceUseStatement resource constrained by this profile." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -948,26 +966,6 @@
            fhir:v "index.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Home" ] ;
-         fhir:generation [ fhir:v "markdown" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:code ;
-             fhir:v "informative"
-           ]
-         ] [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [
-             a fhir:url ;
-             fhir:v "actors.html"^^xsd:anyURI
-           ]
-         ] ) ;
-         fhir:name [
-           a fhir:url ;
-           fhir:v "actors.html"^^xsd:anyURI
-         ] ;
-         fhir:title [ fhir:v "Actors" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] [
          fhir:extension ( [
@@ -1060,6 +1058,26 @@
            fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:url ;
+             fhir:v "guidance.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "guidance.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Guidance" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "informative"
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
              fhir:v "IG-analysis.html"^^xsd:anyURI
            ]
          ] ) ;
@@ -1108,6 +1126,26 @@
            fhir:v "Structure-of-the-SOTUS.html"^^xsd:anyURI
          ] ;
          fhir:title [ fhir:v "Structure of the SOTUS" ] ;
+         fhir:generation [ fhir:v "markdown" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:code ;
+             fhir:v "informative"
+           ]
+         ] [
+           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:url ;
+             fhir:v "use-case.html"^^xsd:anyURI
+           ]
+         ] ) ;
+         fhir:name [
+           a fhir:url ;
+           fhir:v "use-case.html"^^xsd:anyURI
+         ] ;
+         fhir:title [ fhir:v "Use Case" ] ;
          fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
@@ -1164,6 +1202,8 @@
 <http://hl7.org/fhir/us/sotus/Bundle/bundle-no-info-required-sections> a fhir:us .
 
 <http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus> a fhir:us .
+
+<http://hl7.org/fhir/us/sotus/StructureDefinition/DeviceUseStatement-us-sotus> a fhir:us .
 
 # -------------------------------------------------------------------------------------
 

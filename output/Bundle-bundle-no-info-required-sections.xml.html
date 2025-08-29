@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Bundle - No Info Required section - XML Representation - US Summary of the United States v0.0.1</title>
+    <title>Bundle - No Info Required section - XML Representation - Summary of the United States Implementation Guide v0.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -45,8 +45,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"10.3"}
-    h3,h4,h5,h6{--heading-prefix:"10.3"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.4"}
+    h3,h4,h5,h6{--heading-prefix:"11.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -66,7 +66,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">US Summary of the United States</span>
+          <p><span style="font-size:12pt;font-weight:bold">Summary of the United States Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.0.1 - STU 1
 
@@ -106,6 +106,12 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="use-case.html">Use Case</a>
+  </li>
+  <li>
     <a href="Structure-of-the-SOTUS.html">The &quot;SOTUS&quot;</a>
   </li>
   <li class="dropdown">
@@ -118,6 +124,9 @@
       </li>
       <li>
         <a href="profiles.html">SOTUS Library (Profiles)</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
       </li>
     </ul>
   </li>
@@ -165,7 +174,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">US Summary of the United States - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Summary of the United States Implementation Guide - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -226,28 +235,30 @@
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;bundle-no-info-required-sections&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/uv/ips/StructureDefinition/Bundle-uv-ips&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/sotus/StructureDefinition/Bundle-us-sotus&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en-NZ&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en-US&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">identifier</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.724.4.8.10.200.10&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;59f51f0b-2005-485c-858e-3d3ae9657287&quot;/&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">identifier</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;document&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2022-01-08T20:42:11.0607701+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2025-01-08T20:42:11.0607701+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.fhir.org/fhir/Composition/514af4c1-194d-48b4-8afe-7be09d3f895a&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition">Composition</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;514af4c1-194d-48b4-8afe-7be09d3f895a&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">meta</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;1&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.meta">meta</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en-NZ&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en-US&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en-NZ&quot; lang=&quot;en-NZ&quot;&gt;&lt;a name=&quot;Composition_514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;version: 1; Language: en-NZ&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 60591-5}&quot;&gt;Patient summary Document&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: International Patient Summary&lt;/p&gt;&lt;p&gt;&lt;b&gt;confidentiality&lt;/b&gt;: normal&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Party&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Professional&lt;/td&gt;&lt;td&gt;2021-05-03&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;custodian&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;RelatesTos&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Transforms&lt;/td&gt;&lt;td&gt;&lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Events&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}&quot;&gt;care provision&lt;/span&gt;&lt;/td&gt;&lt;td&gt;?? --&amp;gt; 2021-05-03&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en-US&quot; lang=&quot;en-US&quot;&gt;&lt;a name=&quot;Composition_514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Composition 514af4c1-194d-48b4-8afe-7be09d3f895a&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc514af4c1-194d-48b4-8afe-7be09d3f895a&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;version: 1; Language: en-US&lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-Composition-us-sotus.html&quot;&gt;Composition (SOTUS)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://loinc.org 60591-5}&quot;&gt;Patient summary Document&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;author&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;title&lt;/b&gt;: Patient Summary as of 2021-05-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;confidentiality&lt;/b&gt;: normal&lt;/p&gt;&lt;h3&gt;Attesters&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Mode&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Time&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Party&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Professional&lt;/td&gt;&lt;td&gt;2021-05-03&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;custodian&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;RelatesTos&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;Transforms&lt;/td&gt;&lt;td&gt;&lt;code&gt;urn:oid:2.16.840.1.113883.2.18.7.2&lt;/code&gt;/59f51f0b-2005-485c-858e-3d3ae9657287&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Events&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Period&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ActClass PCPR}&quot;&gt;care provision&lt;/span&gt;&lt;/td&gt;&lt;td&gt;?? --&amp;gt; 2021-05-03&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.identifier">identifier</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.2.18.7.2&quot;/&gt;
@@ -267,9 +278,9 @@
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2021-05-03&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.author">author</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
-                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;/&gt;
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.author">author</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;International Patient Summary&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient Summary as of 2021-05-03&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.confidentiality">confidentiality</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;N&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.attester">attester</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.attester.mode">mode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;professional&quot;/&gt;
@@ -303,17 +314,17 @@
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.event.period">period</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.event">event</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Allergies and Intolerances&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Problem List&quot;/&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;48765-2&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Allergies and adverse reactions Document&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11450-4&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Problem list - Reported&quot;/&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-            &lt;div xml:lang=&quot;en-NZ&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-NZ&quot;&gt;There is no information available regarding the subject's allergies.&lt;/div&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available about the subject's health problems or disabilities.&lt;/div&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -326,17 +337,17 @@
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Problem List&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Allergies and Intolerances&quot;/&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11450-4&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Problem list - Reported&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;48765-2&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Allergies and adverse reactions Document&quot;/&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-            &lt;div xml:lang=&quot;en-NZ&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-NZ&quot;&gt;There is no information available about the subject's health problems or disabilities.&lt;/div&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available regarding the subject's allergies.&lt;/div&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -359,7 +370,7 @@
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-            &lt;div xml:lang=&quot;en-NZ&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-NZ&quot;&gt;There is no information available about the subject's medication use or administration.&lt;/div&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available about the subject's medication use or administration.&lt;/div&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -372,338 +383,424 @@
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Immunizations&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Results&quot;/&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;11369-6&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;History of Immunization Narrative&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;30954-2&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>
+                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Relevant diagnostic tests/laboratory data note&quot;/&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-            &lt;div xml:lang=&quot;en-NZ&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Vaccine&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Seq&lt;/th&gt;&lt;th&gt;Route&lt;/th&gt;&lt;th&gt;Site&lt;/th&gt;&lt;th&gt;Indication&lt;/th&gt;&lt;th&gt;Status&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Influenza&lt;/td&gt;&lt;td&gt;03/07/2020&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;td&gt;Injection, intramuscular&lt;/td&gt;&lt;td&gt;Entire left upper arm&lt;/td&gt;&lt;td&gt;Eligible condition (Influenza)&lt;/td&gt;&lt;td&gt;completed&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Influenza&lt;/td&gt;&lt;td&gt;03/06/2019&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;Injection, intramuscular&lt;/td&gt;&lt;td&gt;Entire left upper arm&lt;/td&gt;&lt;td&gt;Eligible condition (Influenza)&lt;/td&gt;&lt;td&gt;completed&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available about the subject's relevant diagnostic tests or laboratory data.&lt;/div&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
-                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
-                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.entry">entry</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;No information available&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Social History&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;29762-2&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Social history note&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available about the subject's social history.&lt;/div&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;No information available&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Vital Signs&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://loinc.org&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;8716-3&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Vital signs note&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.code">code</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+            &lt;div xml:lang=&quot;en-US&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-US&quot;&gt;There is no information available about the subject's vital signs.&lt;/div&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.text">text</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/list-empty-reason&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;unavailable&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Unavailable&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;No information available&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section.emptyReason">emptyReason</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition.section">section</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/composition.html#Composition">Composition</a>&gt;
     &lt;/resource&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Patient/AAA1234&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.fhir.org/fhir/Patient/AAA1234&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AAA1234&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.0&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Patient_AAA1234&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Patient AAA1234&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;AAA1234&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcAAA1234&quot;&gt; &lt;/a&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;James Judge  Male, DoB: 1985-04-25 ( https://standards.digital.health.nz/ns/nhi-id#AAA1234)&lt;/p&gt;&lt;hr/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Known Marital status of Patient&quot;&gt;Marital Status:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-MaritalStatus M}&quot;&gt;Married&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Ways to contact the Patient&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: tel:+6478532279(Home)&lt;/li&gt;&lt;li&gt;Bleak House 3 Worcester Drive Rototuna North Hamilton 3210 NZ (home)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Language spoken&quot;&gt;Language:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 en-NZ}&quot;&gt;English (Region=New Zealand)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Nominated Contact: family member&quot;&gt;family member:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;Natural mother mother &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Nominated Contact: unrelated friend&quot;&gt;unrelated friend:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;Peter Rabbit Rabbit &lt;/li&gt;&lt;li&gt;9 Worcester Drive Rototuna Hamilton 3210 NZ (home)&lt;/li&gt;&lt;li&gt;ph: 07 853 9191(Home)&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Patient_AAA1234&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Patient AAA1234&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;AAA1234&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcAAA1234&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-patient.html&quot;&gt;US Core Patient Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;Amy V. Baxter  (no stated gender), DoB: 1987-02-20 ( Medical Record Number: 1032702 (use: usual, ))&lt;/p&gt;&lt;hr/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Record is active&quot;&gt;Active:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Alternate names (see the one above)&quot;&gt;Alt. Name:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;Amy V. Shaw (Old)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Ways to contact the Patient&quot;&gt;Contact Detail&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;ph: 555-555-5555(Home)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;mailto:amy.shaw@example.com&quot;&gt;amy.shaw@example.com&lt;/a&gt;&lt;/li&gt;&lt;li&gt;49 MEADOW ST MOUNDS OK 74047 US (old)&lt;/li&gt;&lt;li&gt;183 MOUNTAIN VIEW ST MOUNDS OK 74048 US &lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Language spoken&quot;&gt;Language:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;span title=&quot;Codes:{urn:ietf:bcp:47 es}&quot;&gt;Spanish&lt;/span&gt; (preferred)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;USCDI includes a data element for Sex, intended to support the exchange of a recorded sex value. This extension aligns with the USCDI definition of Sex: &amp;quot;Documentation of a specific instance of sex.&amp;quot; It enables systems to share the sex value as it was documented in a particular context.  Systems choosing to record sources of information should use the [Provenance resource](element-level-provenance.html).&quot;&gt;&lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-sex.html&quot;&gt;US Core Sex Extension&lt;/a&gt;&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;a href=&quot;http://snomed.info/sct/731000124108/id/248152002&quot;&gt;SNOMED CT 248152002&lt;/a&gt;: Female (finding) (version = http://snomed.info/sct/731000124108 )&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The ethnicity codes used to represent these concepts are based upon the [CDC ethnicity and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html) which includes over 900 concepts for representing race and ethnicity of which 43 reference ethnicity.  The ethnicity concepts are grouped by and pre-mapped to the 2 OMB ethnicity categories: - Hispanic or Latino - Not Hispanic or Latino.&quot;&gt;US Core Ethnicity Extension:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2135-2: Hispanic or Latino&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2184-0: Dominican&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2148-5: Mexican&lt;/li&gt;&lt;li&gt;text: Hispanic or Latino&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Concepts classifying the person into a named category of humans sharing common history, traits, geographical origin or nationality.  The race codes used to represent these concepts are based upon the [CDC Race and Ethnicity Code Set Version 1.0](http://www.cdc.gov/phin/resources/vocabulary/index.html#3) which includes over 900 concepts for representing race and ethnicity of which 921 reference race.  The race concepts are grouped by and pre-mapped to the 5 OMB race categories:
+
+ - American Indian or Alaska Native
+ - Asian
+ - Black or African American
+ - Native Hawaiian or Other Pacific Islander
+ - White.&quot;&gt;US Core Race Extension:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2106-3: White&lt;/li&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 1002-5: American Indian or Alaska Native&lt;/li&gt;&lt;li&gt;ombCategory: CDC Race and Ethnicity 2028-9: Asian&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 1586-7: Shoshone&lt;/li&gt;&lt;li&gt;detailed: CDC Race and Ethnicity 2036-2: Filipino&lt;/li&gt;&lt;li&gt;text: Mixed&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;This Extension profile represents a tribe or band with which a person associates and, optionally, whether they are enrolled.&quot;&gt;US Core Tribal Affiliation Extension:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;tribalAffiliation: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS 187}&quot;&gt;Shoshone&lt;/span&gt;&lt;/li&gt;&lt;li&gt;isEnrolled: false&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;This extension indicates the individual's need for an interpreter to communicate healthcare information in a language other than the default language of the organization. It has the same meaning as the LOINC [54588-9](https://loinc.org/54588-9) (Interpreter needed)&quot;&gt;&lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-interpreter-needed.html&quot;&gt;US Core Interpreter Needed Extension&lt;/a&gt;&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;a href=&quot;http://snomed.info/sct/731000124108/id/373066001&quot;&gt;SNOMED CT 373066001&lt;/a&gt;: Yes (qualifier value) (version = http://snomed.info/sct/731000124108 )&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-race&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ombCategory&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2106-3&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;White&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ombCategory&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;1002-5&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;American Indian or Alaska Native&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ombCategory&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2028-9&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Asian&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;detailed&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;1586-7&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Shoshone&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;detailed&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2036-2&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Filipino&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;text&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mixed&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;ombCategory&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2135-2&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hispanic or Latino&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;detailed&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2184-0&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dominican&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;detailed&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.840.1.113883.6.238&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;2148-5&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Mexican&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;text&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hispanic or Latino&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;tribalAffiliation&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                        <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-TribalEntityUS&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;187&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>
+                         <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Paiute-Shoshone Tribe of the Fallon Reservation and Colony, Nevada&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Shoshone&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;isEnrolled&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueBoolean</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.extension">extension</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://snomed.info/sct/731000124108&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;248152002&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Female (finding)&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed&quot;&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;http://snomed.info/sct/731000124108&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;373066001&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCoding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://standards.digital.health.nz/ns/nhi-id&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AAA1234&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;usual&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MR&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medical Record Number&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Medical Record Number&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://example.org/patient/identifiers&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1032702&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.active">active</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;old&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Shaw&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Amy&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;V.&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">period</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2016-12-06&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">period</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;usual&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Judge&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;James&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Baxter&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Amy&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;V.&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.suffix">suffix</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;PharmD&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">period</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.period">period</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;tel:+6478532279&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;555-555-5555&quot;/&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;male&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1985-04-25&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;amy.shaw@example.com&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1987-02-20&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bleak House&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3 Worcester Drive&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rototuna North&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hamilton&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3210&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NZ&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;old&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;49 MEADOW ST&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MOUNDS&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;OK&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;74047&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">period</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2016-12-06&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.end">end</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">period</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.maritalStatus">maritalStatus</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-MaritalStatus&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;M&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Married&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.maritalStatus">maritalStatus</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">relationship</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FAMMEMB&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;family member&quot;/&gt;
-            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v2-0131&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;N&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Next-of-Kin&quot;/&gt;
-            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">relationship</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">name</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;usual&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;mother&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Natural&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;mother&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">name</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">relationship</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                      <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RoleCode&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;FRND&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;unrelated friend&quot;/&gt;
-            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v2-0131&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;C&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Emergency Contact&quot;/&gt;
-            &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.relationship">relationship</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">name</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;usual&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rabbit&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Peter&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rabbit&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.name">name</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.telecom">telecom</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;07 853 9191&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.telecom">telecom</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.address">address</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;9 Worcester Drive&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rototuna&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hamilton&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3210&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NZ&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact.address">address</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.contact">contact</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;183 MOUNTAIN VIEW ST&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MOUNDS&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;OK&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;74048&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">period</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-07-22&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.period">period</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.address">address</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication">communication</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.language">language</a>&gt;
             &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
               &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:ietf:bcp:47&quot;/&gt;
-              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en-NZ&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;es&quot;/&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Spanish&quot;/&gt;
             &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.language">language</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication.preferred">preferred</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient.communication">communication</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a>&gt;
     &lt;/resource&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Organization/d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization">resource</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization">Organization</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Organization_d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;d9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcd9b97b04-b606-4f07-baf2-7eb3dcae0a2a&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://standards.digital.health.nz/ns/hpi-facility-id&lt;/code&gt;/F0K068-E&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Northcare, Thomas Road&lt;/p&gt;&lt;/div&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
-                  <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://standards.digital.health.nz/ns/hpi-facility-id&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;F0K068-E&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Northcare, Thomas Road&quot;/&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization">Organization</a>&gt;
-    &lt;/resource&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.fhir.org/fhir/PractitionerRole/f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">PractitionerRole</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitionerrole&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcf54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://snomed.info/sct 158965000}&quot;&gt;Doctor&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;PractitionerRole_f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: PractitionerRole f54d8c90-aea2-46b0-8f7a-8683db78344e&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;f54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcf54d8c90-aea2-46b0-8f7a-8683db78344e&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitionerrole.html&quot;&gt;US Core PractitionerRole Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;practitioner&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;organization&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2025-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction PCP}, {http://nucc.org/provider-taxonomy 261QP2300X}&quot;&gt;primary care physician&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specialty&lt;/b&gt;: &lt;span title=&quot;Codes:{http://nucc.org/provider-taxonomy 208D00000X}&quot;&gt;General Practice Physician&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: (+1) 555-555-5555, &lt;a href=&quot;mailto:ronald.bone@holyhealthcare.org&quot;&gt;ronald.bone@holyhealthcare.org&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.practitioner">practitioner</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
                      <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.practitioner">practitioner</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.organization">organization</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.organization">organization</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.code">code</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;158965000&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Doctor&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PCP&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;primary care physician&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://nucc.org/provider-taxonomy&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;261QP2300X&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Primary Care Clinic/Center&quot;/&gt;
           &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.code">code</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.specialty">specialty</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://nucc.org/provider-taxonomy&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;208D00000X&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;General Practice Physician&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.specialty">specialty</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;(+1) 555-555-5555&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.telecom">telecom</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;ronald.bone@holyhealthcare.org&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole.telecom">telecom</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/practitionerrole.html#PractitionerRole">PractitionerRole</a>&gt;
     &lt;/resource&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.fhir.org/fhir/Practitioner/19c24876-ccf8-45e7-8b66-462317e970f1&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">Practitioner</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;19c24876-ccf8-45e7-8b66-462317e970f1&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner|8.0.0&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Dr Richard Kildare Kildare &lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: tel:+6478539191(Work)&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 12 Thomas Rd Huntingdon Hamilton 3211 NZ (work)&lt;/p&gt;&lt;/div&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Practitioner_19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Practitioner 19c24876-ccf8-45e7-8b66-462317e970f1&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc19c24876-ccf8-45e7-8b66-462317e970f1&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-practitioner.html&quot;&gt;US Core Practitioner Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=&quot;http://terminology.hl7.org/5.5.0/NamingSystem-npi.html&quot; title=&quot;National Provider Identifier&quot;&gt;United States National Provider Identifier&lt;/a&gt;/9941339100, &lt;code&gt;http://www.acme.org/practitioners&lt;/code&gt;/25456&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Ronald Bone &lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 1003 HEALTHCARE DR AMHERST MA 01002 US (work)&lt;/p&gt;&lt;/div&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.text">text</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/sid/us-npi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;9941339100&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.extension">extension</a>
+                     <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-jurisdiction&quot;&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://www.usps.com/&quot;/&gt;
+                &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;MA&quot;/&gt;
+              &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+              &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Massachusetts&quot;/&gt;
+            &lt;/<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.extension">extension</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.acme.org/practitioners&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;25456&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.identifier">identifier</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">name</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;usual&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kildare&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dr&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Richard&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Kildare&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bone&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Ronald&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.prefix">prefix</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Dr&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.name">name</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">telecom</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;tel:+6478539191&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.telecom">telecom</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.address">address</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;work&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;physical&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;12 Thomas Rd&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Huntingdon&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Hamilton&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;3211&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NZ&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1003 HEALTHCARE DR&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;AMHERST&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MA&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;01002&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner.address">address</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/practitioner.html#Practitioner">Practitioner</a>&gt;
     &lt;/resource&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://example.fhir.org/fhir/Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization">resource</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization">Organization</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+                   <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization|8.0.0&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.meta">meta</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>&gt;
           &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;code&gt;https://standards.digital.health.nz/ns/psychotherapists-board-id&lt;/code&gt;/F2N000-J&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: NorthCare Pukete Road&lt;/p&gt;&lt;/div&gt;
+          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Organization 70a756e3-20b3-4637-8601-a222983e295a&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc70a756e3-20b3-4637-8601-a222983e295a&quot;&gt; &lt;/a&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;/&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;http://hl7.org/fhir/us/core/STU8/StructureDefinition-us-core-organization.html&quot;&gt;US Core Organization Profileversion: null8.0.0)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: &lt;a href=&quot;http://terminology.hl7.org/5.5.0/NamingSystem-npi.html&quot; title=&quot;National Provider Identifier&quot;&gt;United States National Provider Identifier&lt;/a&gt;/1234567893&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/organization-type prov}&quot;&gt;Provider&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Holy Healthcare&lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: (+1) 555-555-5555, &lt;a href=&quot;mailto:hq@holyhealthcare.org&quot;&gt;hq@holyhealthcare.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: 100 MANAGING ORGANIZATION AVE Amherst MA 01002 US &lt;/p&gt;&lt;/div&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.text">text</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>
-                  <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://standards.digital.health.nz/ns/psychotherapists-board-id&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;F2N000-J&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/sid/us-npi&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;1234567893&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.identifier">identifier</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;NorthCare Pukete Road&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.active">active</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.type">type</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
+                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/organization-type&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;prov&quot;/&gt;
+          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Provider&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.type">type</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Holy Healthcare&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;phone&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;(+1) 555-555-5555&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">telecom</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">telecom</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;hq@holyhealthcare.org&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.telecom">telecom</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/organization.html#Organization.address">address</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.line">line</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;100 MANAGING ORGANIZATION AVE&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.city">city</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Amherst&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.state">state</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;MA&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.postalCode">postalCode</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;01002&quot;/&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Address#Address.country">country</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;US&quot;/&gt;
+        &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization.address">address</a>&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/organization.html#Organization">Organization</a>&gt;
-    &lt;/resource&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Immunization/4ab062b3-8843-4b98-af62-3d6d178a3772&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">resource</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">Immunization</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;4ab062b3-8843-4b98-af62-3d6d178a3772&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Immunization_4ab062b3-8843-4b98-af62-3d6d178a3772&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Immunization 4ab062b3-8843-4b98-af62-3d6d178a3772&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;4ab062b3-8843-4b98-af62-3d6d178a3772&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hc4ab062b3-8843-4b98-af62-3d6d178a3772&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/sid/cvx 141}&quot;&gt;Influenza, seasonal, injectable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Patient_AAA1234&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2020-07-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;lotNumber&lt;/b&gt;: B52b&lt;/p&gt;&lt;p&gt;&lt;b&gt;expirationDate&lt;/b&gt;: 2020-07-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;span title=&quot;Codes:{http://snomed.info/sct 72098002}&quot;&gt;Entire left upper arm&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}&quot;&gt;Injection, intramuscular&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;ProtocolApplieds&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Series&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DoseNumber[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;45y (Eligible condition (Influenza))&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/sid/cvx&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;141&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Influenza, seasonal, injectable&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/AAA1234&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.occurrence[x]">occurrenceDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2020-07-03&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.lotNumber">lotNumber</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;B52b&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.expirationDate">expirationDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2020-07-03&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">site</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;72098002&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Entire left upper arm&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">site</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">route</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;IM&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Injection, intramuscular&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">route</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
-                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.series">series</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;45y (Eligible condition (Influenza))&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.doseNumber[x]">doseNumberPositiveInt</a> <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">value</a>=&quot;2&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">Immunization</a>&gt;
-    &lt;/resource&gt;
-  &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://terminz.azurewebsites.net/fhir/Immunization/bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">resource</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">Immunization</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-          &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a name=&quot;Immunization_bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;&gt; &lt;/a&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Immunization bd6c6537-6c5a-4fa8-8d26-2b49377425a2&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;bd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcbd6c6537-6c5a-4fa8-8d26-2b49377425a2&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Completed&lt;/p&gt;&lt;p&gt;&lt;b&gt;vaccineCode&lt;/b&gt;: &lt;span title=&quot;Codes:{http://hl7.org/fhir/sid/cvx 141}&quot;&gt;Influenza, seasonal, injectable&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Patient_AAA1234&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2019-06-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;lotNumber&lt;/b&gt;: B52&lt;/p&gt;&lt;p&gt;&lt;b&gt;expirationDate&lt;/b&gt;: 2019-08-03&lt;/p&gt;&lt;p&gt;&lt;b&gt;site&lt;/b&gt;: &lt;span title=&quot;Codes:{http://snomed.info/sct 72098002}&quot;&gt;Entire left upper arm&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;route&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration IM}&quot;&gt;Injection, intramuscular&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Performers&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Actor&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;Bundle-bundle-no-info-required-sections.html#Organization_70a756e3-20b3-4637-8601-a222983e295a&quot;&gt;Bundle: identifier = urn:oid:2.16.724.4.8.10.200.10#59f51f0b-2005-485c-858e-3d3ae9657287; type = document; timestamp = 2022-01-08 20:42:11+0000&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;ProtocolApplieds&lt;/h3&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Series&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;DoseNumber[x]&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;display: none&quot;&gt;*&lt;/td&gt;&lt;td&gt;45y (Eligible condition (Influenza))&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.text">text</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;completed&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/sid/cvx&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;141&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Influenza, seasonal, injectable&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.vaccineCode">vaccineCode</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/AAA1234&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.patient">patient</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.occurrence[x]">occurrenceDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2019-06-03&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.lotNumber">lotNumber</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;B52&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.expirationDate">expirationDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;2019-08-03&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">site</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://snomed.info/sct&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;72098002&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Entire left upper arm&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.site">site</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">route</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>
-                    <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;IM&quot;/&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Injection, intramuscular&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.route">route</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
-            &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>
-                       <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Organization/70a756e3-20b3-4637-8601-a222983e295a&quot;/&gt;
-          &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer.actor">actor</a>&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.performer">performer</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.series">series</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;45y (Eligible condition (Influenza))&quot;/&gt;
-          &lt;<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied.doseNumber[x]">doseNumberPositiveInt</a> <a href="http://hl7.org/fhir/R4/datatypes.html#positiveInt">value</a>=&quot;1&quot;/&gt;
-        &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization.protocolApplied">protocolApplied</a>&gt;
-      &lt;/<a href="http://hl7.org/fhir/R4/immunization.html#Immunization">Immunization</a>&gt;
     &lt;/resource&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
 &lt;/<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">Bundle</a>&gt;</code></pre>
@@ -730,7 +827,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Douments Work Group</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 11:12-0400">2025-08-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Documents</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 21:05-0400">2025-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

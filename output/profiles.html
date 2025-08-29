@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Profiles - US Summary of the United States v0.0.1</title>
+    <title>Profiles - Summary of the United States Implementation Guide v0.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -64,7 +64,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">US Summary of the United States</span>
+          <p><span style="font-size:12pt;font-weight:bold">Summary of the United States Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.0.1 - STU 1
 
@@ -104,6 +104,12 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="use-case.html">Use Case</a>
+  </li>
+  <li>
     <a href="Structure-of-the-SOTUS.html">The &quot;SOTUS&quot;</a>
   </li>
   <li class="dropdown">
@@ -116,6 +122,9 @@
       </li>
       <li>
         <a href="profiles.html">SOTUS Library (Profiles)</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
       </li>
     </ul>
   </li>
@@ -170,7 +179,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">US Summary of the United States - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Summary of the United States Implementation Guide - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Profiles</h2>
   
 
@@ -207,10 +216,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <h3 id="ips-and-its-structure">IPS and Its Structure</h3>
 
-<p>The <b>Summary of the United States (SOTUS)</b> is a document.
-All the profiles specified by this guide are used by the <b>SOTUS Composition</b>.</p>
+<p>The <b>Summary of the United States (SOTUS)</b> is a clinical document to convey essential information during a care transition, planned or unplanned. The profiles to be used are documented in the <b>SOTUS Composition</b>.</p>
 
-<p>The <b>Bundle</b> used for the transport or the persistence SHALL include all the resources that are referenced directly or indirectly by an SOTUS Composition.</p>
+<p>The <b>Bundle</b> used for the transport or the persistence SHALL include all the resources that are referenced by a SOTUS Composition.</p>
 
 <p>A complete list of the sections and the profiles used is available in the <a href="Structure-of-the-SOTUS.html">SOTUS Structure </a> page.</p>
 
@@ -220,7 +228,9 @@ All the profiles specified by this guide are used by the <b>SOTUS Composition</b
 
 <tr><td><a href="StructureDefinition-Bundle-us-sotus.html">Bundle (SOTUS)</a> </td><td><p>This profile represents the constraints applied to the Bundle resource by the SOTUS FHIR Implementation Guide.</p>
 </td></tr>
-<tr><td><a href="StructureDefinition-Composition-us-sotus.html">Composition (IPS)</a> </td><td><p>Clinical document used to represent the SOTUS.</p>
+<tr><td><a href="StructureDefinition-Composition-us-sotus.html">Composition (SOTUS)</a> </td><td><p>Clinical document used to represent the SOTUS.</p>
+</td></tr>
+<tr><td><a href="StructureDefinition-DeviceUseStatement-us-sotus.html">DeviceUseStatement (SOTUS)</a> </td><td><p>This profile represents the constraints applied to the DeviceUseStatement resource by the Summary of the United States Implementation Guide (SOTUS), based on FHIR R4. A statement about a device used by or implanted on the patient is described in the patient summary as an instance of a DeviceUseStatement resource constrained by this profile.</p>
 </td></tr>
 
 
@@ -242,7 +252,7 @@ All the profiles specified by this guide are used by the <b>SOTUS Composition</b
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Douments Work Group</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 11:12-0400">2025-08-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Documents</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 21:05-0400">2025-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

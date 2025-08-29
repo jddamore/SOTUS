@@ -1,7 +1,3 @@
-### AllergyIntolerance
-
-<ul>{% include list-simple-name-allergyintolerances.xhtml %}</ul>
-
 ### Bundle
 
 <ul>{% include list-simple-name-bundles.xhtml %}</ul>
@@ -9,6 +5,11 @@
 ### Composition
 
 <ul>{% include list-simple-name-compositions.xhtml %}</ul>
+
+### DeviceUseStatement 
+
+<ul>{% include list-simple-name-deviceusestatements.xhtml %}</ul>
+
 
 **Examples:** all the examples that are used in this Implementation Guide available for download:
 

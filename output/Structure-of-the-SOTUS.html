@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Structure of the SOTUS - US Summary of the United States v0.0.1</title>
+    <title>Structure of the SOTUS - Summary of the United States Implementation Guide v0.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -64,7 +64,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">US Summary of the United States</span>
+          <p><span style="font-size:12pt;font-weight:bold">Summary of the United States Implementation Guide</span>
             <br/>
             <span style="display:inline-block;">0.0.1 - STU 1
 
@@ -104,6 +104,12 @@
     <a href="toc.html">Table of Contents</a>
   </li>
   <li>
+    <a href="guidance.html">Guidance</a>
+  </li>
+  <li>
+    <a href="use-case.html">Use Case</a>
+  </li>
+  <li>
     <a href="Structure-of-the-SOTUS.html">The &quot;SOTUS&quot;</a>
   </li>
   <li class="dropdown">
@@ -116,6 +122,9 @@
       </li>
       <li>
         <a href="profiles.html">SOTUS Library (Profiles)</a>
+      </li>
+      <li>
+        <a href="examples.html">Examples</a>
       </li>
     </ul>
   </li>
@@ -170,7 +179,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">US Summary of the United States - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Summary of the United States Implementation Guide - Local Development build (v0.0.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/us/sotus/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Structure of the SOTUS</h2>
   
 
@@ -200,24 +209,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <p><!-- white space is critical inside of capture --></p>
 <div class="markdown-toc">
 <ul id="markdown-toc">
-  <li><a href="#shall-required-sections-description" id="markdown-toc-shall-required-sections-description">SHALL (Required) Sections Description</a></li>
-  <li><a href="#should-sections" id="markdown-toc-should-sections">SHOULD Sections</a></li>
+  <li><a href="#required-shall-sections-description" id="markdown-toc-required-shall-sections-description">Required (SHALL) Sections Description</a></li>
+  <li><a href="#recommended-should-sections" id="markdown-toc-recommended-should-sections">Recommended (SHOULD) Sections</a></li>
   <li><a href="#optional-may-sections" id="markdown-toc-optional-may-sections">Optional (MAY) Sections</a></li>
+  <li><a href="#not-yet-included-under-consideration" id="markdown-toc-not-yet-included-under-consideration">Not Yet Included (UNDER CONSIDERATION)</a></li>
   <li><a href="#list-of-profiles" id="markdown-toc-list-of-profiles">List of Profiles</a></li>
 </ul>
 
 </div>
 <p>The SOTUS is composed of the following sections described below.</p>
 
-<p>NEED TO EDIT IMAGE FOR C-CDA CCD Alignment</p>
-
-<p><strong>Figure 2: The IPS composition</strong></p>
-<p><img src="IPS_composition.png" class="figure-img img-responsive img-rounded center-block" alt="Figure 2: The IPS composition" style="width:70%" /></p>
+<p><strong>Figure 2: The SOTUS composition</strong></p>
+<p><img src="SOTUS_composition.png" class="figure-img img-responsive img-rounded center-block" alt="Figure 2: The SOTUS composition" style="width:70%" /></p>
 <div style="clear:both;"></div>
 
-<h3 id="shall-required-sections-description">SHALL (Required) Sections Description</h3>
+<h3 id="required-shall-sections-description">Required (SHALL) Sections Description</h3>
 
 <h4 id="problem-list">Problem List</h4>
+
+<p>Add a description for each section….</p>
 
 <h4 id="allergies-and-intolerances">Allergies and Intolerances</h4>
 
@@ -229,7 +239,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="vital-signs">Vital Signs</h4>
 
-<h3 id="should-sections">SHOULD Sections</h3>
+<h3 id="recommended-should-sections">Recommended (SHOULD) Sections</h3>
+
+<h4 id="immunizations">Immunizations</h4>
+
+<h4 id="medical-equipment">Medical Equipment</h4>
 
 <h4 id="plan-of-treament">Plan of Treament</h4>
 
@@ -241,19 +255,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="alerts">Alerts</h4>
 
-<h4 id="encounters">Encounters</h4>
-
-<h4 id="family-history">Family History</h4>
-
 <h4 id="functional-status">Functional Status</h4>
 
 <h4 id="history-of-past-problems">History of Past Problems</h4>
 
 <h4 id="history-of-pregnancy-status-and-history-summary">History of Pregnancy (status and history summary)</h4>
 
-<h4 id="immunizations">Immunizations</h4>
+<h4 id="patient-story">Patient Story</h4>
 
-<h4 id="medical-equipment">Medical Equipment</h4>
+<h3 id="not-yet-included-under-consideration">Not Yet Included (UNDER CONSIDERATION)</h3>
+
+<h4 id="encounters">Encounters</h4>
+
+<h4 id="family-history">Family History</h4>
 
 <h4 id="mental-status">Mental Status</h4>
 
@@ -261,11 +275,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <h4 id="payers">Payers</h4>
 
-<h4 id="patient-story">Patient Story</h4>
-
 <h3 id="list-of-profiles">List of Profiles</h3>
 
 <p>The profiles that have been defined for this implementation guide are listed <a href="profiles.html">here</a>.</p>
+
+<p>The profiles that have been defined for the US Core Implementation Guide are listed <a href="https://hl7.org/fhir/us/core/profiles-and-extensions.html#profiles">here</a>.</p>
 
 <hr />
 
@@ -288,7 +302,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Douments Work Group</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 11:12-0400">2025-08-28</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/structure">HL7 International / Structured Documents</a>.  Package hl7.fhir.us.sotus#0.0.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Aug 28, 2025 21:05-0400">2025-08-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

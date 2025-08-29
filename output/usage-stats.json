@@ -14,7 +14,13 @@
     "Composition": [
       {
         "url": "http://hl7.org/fhir/us/sotus/StructureDefinition/Composition-us-sotus",
-        "title": "Composition (IPS)"
+        "title": "Composition (SOTUS)"
+      }
+    ],
+    "DeviceUseStatement": [
+      {
+        "url": "http://hl7.org/fhir/us/sotus/StructureDefinition/DeviceUseStatement-us-sotus",
+        "title": "DeviceUseStatement (SOTUS)"
       }
     ]
   },
@@ -80,6 +86,24 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity": [
+      "Bundle.entry.resource"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-interpreter-needed": [
+      "Bundle.entry.resource"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-jurisdiction": [
+      "Bundle.entry.resource.identifier"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race": [
+      "Bundle.entry.resource"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-sex": [
+      "Bundle.entry.resource"
+    ],
+    "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation": [
+      "Bundle.entry.resource"
     ]
   }
 }

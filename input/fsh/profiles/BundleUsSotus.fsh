@@ -91,7 +91,7 @@ Description: "This profile represents the constraints applied to the Bundle reso
 * entry[device].resource 1..
 * entry[device].resource only us-core-implantable-device
 * entry[deviceusestatement].resource 1..
-* entry[deviceusestatement].resource only DeviceUseStatementUvIps
+* entry[deviceusestatement].resource only DeviceUseStatementUsSotus
 * entry[diagnosticreport].resource 1..
 * entry[diagnosticreport].resource only us-core-diagnosticreport-lab
 * entry[documentreference].resource 1..

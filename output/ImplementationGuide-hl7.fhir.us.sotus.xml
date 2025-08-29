@@ -17,12 +17,12 @@
   <url value="http://hl7.org/fhir/us/sotus/ImplementationGuide/hl7.fhir.us.sotus"/>
   <version value="0.0.1"/>
   <name value="USSOTUS"/>
-  <title value="US Summary of the United States"/>
+  <title value="Summary of the United States Implementation Guide"/>
   <status value="active"/>
-  <date value="2025-08-28T11:10:47-04:00"/>
-  <publisher value="HL7 International / Structured Douments Work Group"/>
+  <date value="2025-08-28T21:01:27-04:00"/>
+  <publisher value="HL7 International / Structured Documents"/>
   <contact>
-    <name value="HL7 International / Structured Douments Work Group"/>
+    <name value="HL7 International / Structured Documents"/>
     <telecom>
       <system value="url"/>
       <value value="http://www.hl7.org/Special/committees/structure"/>
@@ -493,8 +493,19 @@
       <reference>
         <reference value="StructureDefinition/Composition-us-sotus"/>
       </reference>
-      <name value="Composition (IPS)"/>
+      <name value="Composition (SOTUS)"/>
       <description value="Clinical document used to represent the SOTUS."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/DeviceUseStatement-us-sotus"/>
+      </reference>
+      <name value="DeviceUseStatement (SOTUS)"/>
+      <description value="This profile represents the constraints applied to the DeviceUseStatement resource by the Summary of the United States Implementation Guide (SOTUS), based on FHIR R4. A statement about a device used by or implanted on the patient is described in the patient summary as an instance of a DeviceUseStatement resource constrained by this profile."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -516,17 +527,6 @@
         </extension>
         <nameUrl value="index.html"/>
         <title value="Home"/>
-        <generation value="markdown"/>
-      </page>
-      <page>
-        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
-          <valueCode value="informative"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="actors.html"/>
-        </extension>
-        <nameUrl value="actors.html"/>
-        <title value="Actors"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -578,6 +578,17 @@
           <valueCode value="informative"/>
         </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="guidance.html"/>
+        </extension>
+        <nameUrl value="guidance.html"/>
+        <title value="Guidance"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
           <valueUrl value="IG-analysis.html"/>
         </extension>
         <nameUrl value="IG-analysis.html"/>
@@ -604,6 +615,17 @@
         </extension>
         <nameUrl value="Structure-of-the-SOTUS.html"/>
         <title value="Structure of the SOTUS"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+          <valueCode value="informative"/>
+        </extension>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="use-case.html"/>
+        </extension>
+        <nameUrl value="use-case.html"/>
+        <title value="Use Case"/>
         <generation value="markdown"/>
       </page>
     </page>
